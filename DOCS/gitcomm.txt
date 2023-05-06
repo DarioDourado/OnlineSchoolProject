@@ -1,0 +1,10 @@
+git init
+git status
+git add [file] (--all)
+git branch [branch-name] 
+git merge [branch-name]
+git push https://github.com/DarioDourado/OnlineSchool.git master
+git pull 
+
+git rm [file] 
+git mv [existing-path] [new-path]
