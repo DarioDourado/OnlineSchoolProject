@@ -1,6 +1,6 @@
 
 .cursoCard{
-    width: 500px;
+    width: 400px;
     border: 3px solid rgba(145, 42, 214, 0.581);
     border-radius: 35px;
 
@@ -16,8 +16,8 @@
 }
 
 .cardFotoBGImage{
-    width: 500px;
-    height: 250px;
+    width: auto;
+    height: 200px;
     background-image: url("/images/cards/cardImgejpg.jpg");
     border-radius: 35px 35px 0 0;
 
@@ -25,16 +25,17 @@
 
 .cardFotoName{
     display: flex;
-    
+    align-items: center;
 }
 
 .cardFotoName img{
     width: 80px;
     height: 80px;
+
 }
 
 .cursoCardTitle{
-    width: 485px;
+    width: auto;
     padding: 10px;
     color: #D9ECFF;
     font-family: 'Inter', sans-serif;
@@ -62,7 +63,7 @@
 }
 
 .cardFotoNameStudents{
-    width: 250px;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -71,4 +72,5 @@
     padding: 25px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }

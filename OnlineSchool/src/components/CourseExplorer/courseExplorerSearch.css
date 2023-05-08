@@ -2,12 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 600px;
+    /* max-width: 700px; */
+    width: fit-content;
 
     border-radius: 40px;
-    max-width: 600px;
 
-    background-color: white;
+    background-color: var(--main-btn-border-color);
 
     padding: 5px;
 }
@@ -17,4 +17,12 @@
     width: 500px;
     border: none;
     border-radius: 10px;
+    color: var(--main-text-color);
+    padding: 10px;
+}
+
+.courseExplorer input:focus{
+
+    border: none;
+
 }

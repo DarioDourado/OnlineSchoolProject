@@ -5,7 +5,7 @@ import './cursoCard.css'
 
 export default function CursoCard() {
   return (
-    <section className='cursoCard'>
+    <section className='cursoCard shadow-2xl'>
       
       <div className='cardFotoBGImage'>
 
@@ -29,10 +29,8 @@ export default function CursoCard() {
           </div>
           <div className='cardsFotoRevBtn'>
             Reviews Stars
-            <button className='btnComprar'>Comprar</button>
-
-        </div>
-
+            <button className='btnComprar'>Comprar</button> 
+          </div>
       </div>
     </section>
   )

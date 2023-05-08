@@ -1,9 +1,11 @@
-@tailwind base;
 
 :root{
     --main-text-color: white;
+    --main-btn-border-color: #FFFFFF;
     --sec-text-color:  #BEA0FF;
+    --btn-hover-bg-color:  #7F56D9;
     --btn-comprar-color: #49BBBD;
+    --btn2-bg-color: #7F56D9;
 }
 
 #root {

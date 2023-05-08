@@ -1,0 +1,27 @@
+.maisPopularesHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.maisPopularesHead h2{
+    font-size: 3em;
+}
+.maisPopularesCards{
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    row-gap: 20px;
+    justify-items: center;
+}
+.maisPopularesBtn{
+    margin-top: 35px;
+    background-color: var(--btn2-bg-color);
+}
+
+.maisPopularesBtn:hover{
+    margin-top: 35px;
+    background-color: var(--b);
+}
+

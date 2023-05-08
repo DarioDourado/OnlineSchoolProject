@@ -5,7 +5,7 @@ import CourseExplorerSearch from '../CourseExplorer/CourseExplorerSearch'
 export default function Banner() {
   return (
     <section className='banner container'>
-        <section>
+        <section className='bannerLeft'>
           <h1><span>A melhor solução, para a sua </span>Formação</h1>
           <h3>
             Provides you with the latest online learning system and material that help your knowledge growing.
@@ -14,8 +14,8 @@ export default function Banner() {
             <CourseExplorerSearch />
           </div>
         </section>
-        <section>
-        <img src="/public/images/banner/Boneco_Banner.png" alt="boneco_banner" />
+        <section className='bannerImgBg'>
+          <img src="/public/images/banner/Boneco_Banner.png" alt="" />
         </section>
     </section>
   )

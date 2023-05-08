@@ -6,9 +6,7 @@ export default function Partners() {
   return (
     <section className='container'>
 
-          <fieldset 
-          className="imagesPartners"
-          >
+          <fieldset className="imagesPartners">
             <legend>Os nossos parceiros</legend>
             <img src="/images/partners/Logo_partners_1.png" alt="Logo_partners_1" />
             <img src="/images/partners/Logo_partners_2.png" alt="Logo_partners_2" />
