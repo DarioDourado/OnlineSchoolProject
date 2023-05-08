@@ -1,0 +1,23 @@
+.banner{
+    display: flex;
+}
+img{
+    width: 500px;
+}
+
+h1, h3{
+    text-align: left;
+}
+h1{
+    font-size: 5rem;
+}
+h3{
+    font-weight: 300;
+    font-size: 1.3em;
+    color: #B0B0D1;
+    ;
+}
+.CourseExplorerBanner{
+    display: flex;
+    justify-content: center;
+}

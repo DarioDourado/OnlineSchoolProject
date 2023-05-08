@@ -1,42 +1,35 @@
+@tailwind base;
+
+:root{
+    --main-text-color: white;
+    --sec-text-color:  #BEA0FF;
+    --btn-comprar-color: #49BBBD;
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    color: var(--main-text-color);
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #2C1F4A;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.btnComprar{
+    width: 200px;
+    height: 70px;
+    font-size: 1.4em;
+    background-color: #49BBBD;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+span{
+    color: var(--sec-text-color);
 }
