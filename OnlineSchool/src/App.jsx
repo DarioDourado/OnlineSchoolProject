@@ -8,6 +8,10 @@ import CursoCard from './components/CursoCard/CursoCard'
 import Filter from './components/Filter/Filter'
 import MaisPopularesCards from './components/MaisPopularesCards/MaisPopularesCards'
 import QueDiferenca from './components/QueDiferenca/QueDiferenca'
+import Testemunhos from './components/Testemunhos/Testemunhos'
+import JunteColLab from './components/JunteColLab/JunteColLab'
+import Footer from './components/Footer/Footer'
+
 
 function App() {
 
@@ -15,7 +19,9 @@ function App() {
   return (
     <>
       <div>
+
         <Nav />
+
         <Banner />
         <Partners />
         <MaisPopularesCards />

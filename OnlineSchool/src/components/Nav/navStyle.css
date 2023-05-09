@@ -1,43 +1,36 @@
 ul{
     list-style: none;
-    display: flex;
-    gap: 25px;
 }
 
-.navContainer{
+/* .navContainer{
     display: flex;
     align-items: center;
     justify-content:space-between;
-}
-.btnNav{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 28px;
-    gap: 8px;
-}
-button{
-    border: 2px solid var(--main-btn-border-color);
-    padding: 16px 28px;
-    /* Shadow/xs */
-    
-    filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
-    border-radius: 38px;
-    background-color: transparent;
-    color: var(--main-text-color);
+} */
+
+.navMenuTxt{
+    padding: 5px;
     
 }
-.btn2{
-    background-color: var(--btn2-bg-color);
+.navMenuTxt:hover{
+    background-color: var(--btn-hover-bg-color);
 }
 
-.btn1, .btn2{
-    width: 125px;
-    height: 63;
+li:hover{
+    background-color: var(--btn-hover-bg-color);
+    cursor: pointer;
+    border-radius: 25px;
 }
 
-.btn2:hover, .btn1:hover{
-    transform: scale(1.1);
-    transition: all 0.2s ease-in-out;
+.navMenuUl{
+    max-width: 80vw;
+}
+
+li{
+    padding: 25px;
+}
+
+.logo h2{
+    font-size: 2em;
+    color: skyblue;
 }

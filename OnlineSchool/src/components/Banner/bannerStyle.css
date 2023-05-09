@@ -1,37 +1,28 @@
 .banner{
     display: flex;
+
 }
 .bannerLeft{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
+/* 
 .bannerImgBg{
     display: flex;
     width: fit-content;
 
-    /* background-image: url("/public/images/banner/Boneco_Banner.png");
+    background-image: url("/public/images/banner/Boneco_Banner.png");
     background-position: center center;
-    background-size: cover;*/
+    background-size: cover;
 
-}
+}*/
 
-h1, h3{
-    text-align: left;
-}
-h1{
-    font-size: 5rem;
-}
-h3{
-    font-weight: 300;
-    font-size: 1.3em;
-    color: #B0B0D1;
-    ;
-}
+/* 
 .CourseExplorerBanner{
 
     padding: 35px 0;
     display: flex;
 
-    justify-content: flex-start;
-}
+    justify-content: flex-start; 
+}*/

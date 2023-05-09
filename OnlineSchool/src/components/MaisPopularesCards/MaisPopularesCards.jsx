@@ -6,12 +6,12 @@ import CursoCard from '../CursoCard/CursoCard'
 
 export default function MaisPopularesCards() {
   return (
-    <section className='container'>
-      <section className='maisPopularesHead'>
+    <section className='container max-w-screen-lg mx-auto md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl'>
+      <section className='maisPopularesHead flex flex-col lg:flex-row justify-between items-center'>
         <article>
           <h2>Mais <span>Populares</span></h2>
         </article>
-        <article>
+        <article >
           <Filter />
         </article>
       </section>

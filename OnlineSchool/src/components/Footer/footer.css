@@ -1,0 +1,11 @@
+.containerFooter h2{
+    font-size: 1.2em;
+}
+
+.containerFooterHr{
+    background-color: rgba(255, 255, 255, 0.456);
+    margin: auto;
+    width: 95%;
+    height: 2px
+}
+

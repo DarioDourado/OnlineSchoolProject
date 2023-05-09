@@ -1,25 +1,26 @@
 .btnFilter{
-    width: fit-content;
-    height: 63;
     border: none;
+    width: 150px;
+    padding: 15px;
 }
 
 .btnFilter:hover{
     background-color: var(--btn-hover-bg-color);
     transition: all 0.2s ease-in-out;
+    border-radius: 35px;
 }
 
 .filterComponent{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 5px;
 
     border: 1px solid var(--main-btn-border-color);
     background-color: rgba(255, 255, 255, 0.1);
 
-    padding: 10px;
-    width: fit-content;
-    border-radius: 35px;
+    border-radius: 25px;
 
 }
+/* 
+.filterComponent button{
+    padding: 15px 5px;
+    width: 100px;
+
+} */

@@ -3,14 +3,14 @@ import './queDiferenca.css'
 
 export default function QueDiferenca() {
   return (
-    <section className='queDiferenca container'>
-        <section className='queDiferencaContainer' >
-            <section className='queDiferencaImg'>
+    <section className='queDiferenca container mx-auto p-7 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl'>
+        <section className='queDiferencaContainer flex flex-col lg:flex-row items-center' >
+            <section className='queDiferencaImg max-w-xs flex'>
                 <img src="/public/images/diferenca/diferencaBanenrImg.png" alt="" />
             </section>
             <section className='queDiferencaBannerRight'>
                 <article>
-                    <h1>Que<span>diferenças </span>pretendemos?</h1>
+                    <h1>Que <span>diferenças </span>pretendemos?</h1>
                     <h3>
                     Queremos proporcionar uma excelente experiência de formação dando-lhe toda a assistência para que seus objectivos sejam cumpridos com sucesso.
                     </h3>

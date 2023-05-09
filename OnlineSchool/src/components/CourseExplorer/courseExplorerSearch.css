@@ -13,11 +13,11 @@
 }
 
 .courseExplorer input{
-    height: 40px;
-    width: 500px;
+    /* height: 40px;
+    width: 350px; */
     border: none;
     border-radius: 10px;
-    color: var(--main-text-color);
+    color: gray;
     padding: 10px;
 }
 
@@ -25,4 +25,24 @@
 
     border: none;
 
+}
+
+.btnSearch{
+
+    border: 2px solid var(--main-btn-border-color);
+    padding: 16px 28px;
+    
+    filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
+    border-radius: 38px;
+    background-color: var(--btn2-bg-color);
+    color: var(--main-text-color);
+    width: 125px;
+    height: 63; 
+
+}
+
+.btnSearch:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+    background-color: var(--btn);
 }

@@ -1,0 +1,17 @@
+
+
+
+.junteColLabBtn1{
+    border: 1px solid white;
+    padding: 25px;
+    border-radius: 35px;
+    width: 200px;
+    background-color: tomato;
+}
+.junteColLabBtn2{
+    border: 1px solid white;
+    padding: 25px;
+    border-radius: 35px;
+    width: 200px;
+    background-color: var(--btn-hover-bg-color);
+}
