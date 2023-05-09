@@ -20,6 +20,9 @@ function App() {
         <Partners />
         <MaisPopularesCards />
         <QueDiferenca />
+        <Testemunhos />
+        <JunteColLab />
+        <Footer />
       </div>
     </>
   )
