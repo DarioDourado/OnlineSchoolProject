@@ -25,6 +25,79 @@ body{
     margin: auto;
 } */
 
+.menuBgRed{
+    width: 6px;
+    height: 45px;
+    background-color: red;
+    position: absolute;
+    left: 150px;
+    z-index: -1;
+}
+
+.menuBgElipse{
+    width: 50px;
+    height: 150px;
+    border: 3px solid grey;
+    border-radius: 25px;
+    position: absolute;
+    left: 130px;
+    top: -60px;
+    z-index: -1;
+}
+
+.menuBgCircle{
+    width: 50px;
+    height: 50px;
+    background-color: #3d5dffa1;
+    border-radius: 50%;
+    position: absolute;
+    left: -25px;
+    top: 60px;
+    z-index: -1;
+}
+
+.menuBgCircleWhiteTL{
+    position: absolute;
+    width: 426px;
+    height: 426px;
+    left: -135px;
+    top: 13px;
+    
+    background: rgba(61, 92, 255, 0.2);
+    filter: blur(150px);
+}
+
+.menuBgCircleWhiteTR{
+    position: absolute;
+    width: 602px;
+    height: 602px;
+    right: -200px;
+    top: 300px;
+    background: rgba(61, 92, 255, 0.2);
+    filter: blur(150px);
+}
+
+.menuBgCircleWhiteML{
+    position: absolute;
+    width: 426px;
+    height: 426px;
+    left: -135px;
+    top: 703px;
+    
+    background: rgba(61, 92, 255, 0.2);
+    filter: blur(150px);
+}
+
+.menuBgCircleWhiteMR{
+    position: absolute;
+    width: 602px;
+    height: 602px;
+    right: -200px;
+    top: 800px;
+    background: rgba(61, 92, 255, 0.2);
+    filter: blur(150px);
+}
+
 .btnComprar{
 
     width: fit-content;
@@ -71,4 +144,11 @@ h3{
     font-size: 1.3em;
     color: #B0B0D1;
     ;
+}
+
+.hrSep{
+    height: 1px;
+    width: 80%;
+    background-color: rgba(50, 48, 48, 0.556);
+    margin: 15px auto;
 }

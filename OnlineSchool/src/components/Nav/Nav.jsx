@@ -12,10 +12,10 @@ export default function Nav() {
         </section>
         <section className='navMenuUl flex justify-center items-center'>
           <ul className='flex flex-col md:flex-row items-center'>
-              <li className='lg:w-38 '>Home</li>
-              <li className='lg:w-38 '>Cursos</li>
-              <li className='lg:w-38 '>Trabalhe Connosco</li>
-              <li className='lg:w-38'>Contactos</li>
+              <li className='navLi sm:w-48 '>Home</li>
+              <li className='navLi sm:w-48 '>Cursos</li>
+              <li className='navLi sm:w-48 '>Trabalhe Connosco</li>
+              <li className='navLi sm:w-48 '>Contactos</li>
           </ul>
         </section>
         <section className='flex flex-row justify-center gap-5 mt-7 md:mt-0'>

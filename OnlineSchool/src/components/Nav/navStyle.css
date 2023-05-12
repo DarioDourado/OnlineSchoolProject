@@ -16,7 +16,7 @@ ul{
     background-color: var(--btn-hover-bg-color);
 }
 
-li:hover{
+.navLi:hover{
     background-color: var(--btn-hover-bg-color);
     cursor: pointer;
     border-radius: 25px;
@@ -26,8 +26,8 @@ li:hover{
     max-width: 80vw;
 }
 
-li{
-    padding: 25px;
+.navLi{
+    padding: 15px;
 }
 
 .logo h2{

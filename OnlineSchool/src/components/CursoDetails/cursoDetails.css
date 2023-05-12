@@ -1,0 +1,30 @@
+.headerCursoDetails{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+
+    background-image: url('/public/images/CursoDetails/headerCursoDetails.png');
+    height: 200px;
+    padding: 15px;
+}
+
+.headerCursoDetails img{
+
+    height: 150px;
+    
+}
+
+.cursoImagensSec{
+    background-image: url('/public/images/CursoDetails/headerCursoDetails.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 150px 0 0 150px;
+
+}
+
+/* .ulTxtCursoDetails li{
+    color: white;
+
+} */
