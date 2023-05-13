@@ -15,6 +15,8 @@ import BannerCursos from './components/BannerCursos/BannerCursos'
 import MaisPopBtn from './components/MaisPopBtn/MaisPopBtn'
 import MaisPopBtnComp from './components/MaisPopBtnComp/MaisPopBtnComp'
 import CursoDetails from './components/CursoDetails/CursoDetails'
+import Contactos from './components/Contactos/Contactos'
+import Login from './components/Login/Login'
 
 
 function App() {
@@ -40,22 +42,20 @@ function App() {
           </div>
         </section>
         <Nav />
-        {/* <BannerCursos /> */}
+        <Login />
+        {/* <Contactos /> */}
+        {/* <BannerCursos />
         <CursoDetails />
-
-
-
-
-        {/* <CourseExplorerSearch /> */}
-        {/* <Banner />
-        <Partners /> */}
-        {/* <MaisPopularesCards /> */}
-        {/* <QueDiferenca />
+        <CourseExplorerSearch />
+        <Banner />
+        <Partners />
+        <MaisPopularesCards />
+        <QueDiferenca />
         <Testemunhos />
-        <JunteColLab /> */}
+        <JunteColLab />
         
-        <MaisPopBtnComp />
-        <Footer />
+        <MaisPopBtnComp /> */}
+       {/* <Footer /> */}
       </section>
     </>
   )

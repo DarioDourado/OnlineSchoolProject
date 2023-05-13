@@ -1,0 +1,46 @@
+.inputFormContactos{
+    height: 55px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.textAreaFormContactos{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.btnFrom{
+    background-color: tomato;
+    width: 25%;
+    height: 45px;
+    position: relative;
+    bottom: 35px;
+    left: 45px;
+}
+
+.fieldsetForm{
+    border-color: tomato;
+    min-width: 500px;
+    border-radius: 25px;
+}
+
+
+.map-responsive iframe{
+    position: relative;
+    min-height: 600px;
+    width: 500px;
+    border-radius: 25px;
+
+}
+
+.formMap{
+    display: flex;
+    justify-content: center;
+}
+
+.roundedContainer{
+    border-radius: 25px;
+}
+/* 
+max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl */

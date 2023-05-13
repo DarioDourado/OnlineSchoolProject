@@ -21,7 +21,7 @@ export default function QueDiferenca() {
                 <article className='icoContainers'>
                     <article className='icoContainer'>
                         <div className='icoBkg'>
-                            <span class="material-symbols-outlined ico">school</span>
+                            <span className="material-symbols-outlined ico">school</span>
                         </div>
                         <div className='icoInfoContainer'>
                             <h2>+50</h2>
@@ -30,7 +30,7 @@ export default function QueDiferenca() {
                     </article>
                     <article className='icoContainer'>
                         <div className='icoBkg'>
-                            <span class="material-symbols-outlined ico">school</span>
+                            <span className="material-symbols-outlined ico">school</span>
                         </div>
                         <div className='icoInfoContainer'>
                             <h2>+50</h2>
@@ -39,7 +39,7 @@ export default function QueDiferenca() {
                     </article>
                     <article className='icoContainer'>
                         <div className='icoBkg'>
-                            <span class="material-symbols-outlined ico">school</span>
+                            <span className="material-symbols-outlined ico">school</span>
                         </div>
                         <div className='icoInfoContainer'>
                             <h2>+50</h2>

@@ -8,8 +8,9 @@ export default function Accordion() {
   const sepDiv = document.getElementById('sepDiv')
 
   const handleAccordion = (e) => {
-    console.log(arrowBtnRotate)
-    console.log(accordionConst.classList.contains('hidden'))
+
+    console.log('Entrou')
+
     if(accordionConst.classList.contains('hidden') === true) {
       accordionConst.classList.remove('hidden')
       arrowBtnRotate.classList.remove('rotateBtn')
@@ -26,7 +27,7 @@ export default function Accordion() {
 
 
   return (
-    <div className='accordion '>
+    <div className='accordion mt-1'>
       <div className='flex justify-between gap-2' onClick={handleAccordion}>
         <div className='flex flex-col w-5/6'>
           <div className='ml-5 flex'>
