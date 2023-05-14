@@ -4,9 +4,9 @@ import { TextField } from '@mui/material'
 
 export default function Partners() {
   return (
-    <section className='container flex mx-auto max-w-screen-lg p-7'>
+    <section className='container mx-auto max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl p-7'>
 
-          <fieldset className="imagesPartners">
+          <fieldset className="imagesPartners ontainer mx-auto max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
             <legend>Os nossos parceiros</legend>
             <img src="/images/partners/Logo_partners_1.png" alt="Logo_partners_1" />
             <img src="/images/partners/Logo_partners_2.png" alt="Logo_partners_2" />

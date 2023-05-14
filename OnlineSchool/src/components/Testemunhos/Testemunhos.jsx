@@ -48,7 +48,7 @@ export default function Testemunhos() {
               </div>
             </section>
             <div className=' divTestemunhos'></div>
-            <div className='divTestemunhosText'>
+            <div className='divTestemunhosText p-2'>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque incidunt earum, soluta dicta, suscipit laudantium odit totam excepturi vero facere officia, consequatur similique explicabo autem temporibus minima labore sint magni?
               </p>

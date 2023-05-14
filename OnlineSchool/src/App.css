@@ -61,7 +61,7 @@ body{
     width: 426px;
     height: 426px;
     left: -135px;
-    top: 13px;
+    top: 136px;
     
     background: rgba(61, 92, 255, 0.2);
     filter: blur(150px);
@@ -75,6 +75,7 @@ body{
     top: 300px;
     background: rgba(61, 92, 255, 0.2);
     filter: blur(150px);
+    z-index: -1;
 }
 
 .menuBgCircleWhiteML{
@@ -86,6 +87,8 @@ body{
     
     background: rgba(61, 92, 255, 0.2);
     filter: blur(150px);
+    z-index: -1;
+
 }
 
 .menuBgCircleWhiteMR{
@@ -96,6 +99,7 @@ body{
     top: 800px;
     background: rgba(61, 92, 255, 0.2);
     filter: blur(150px);
+    z-index: -1;
 }
 
 .btnComprar{

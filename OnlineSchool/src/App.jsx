@@ -17,6 +17,11 @@ import MaisPopBtnComp from './components/MaisPopBtnComp/MaisPopBtnComp'
 import CursoDetails from './components/CursoDetails/CursoDetails'
 import Contactos from './components/Contactos/Contactos'
 import Login from './components/Login/Login'
+import { Outlet } from 'react-router-dom'
+import Home from './Pages/Home'
+import CursosPage from './Pages/CursosPage'
+import ContactosPage from './Pages/ContactosPage'
+import LoginPage from './Pages/LoginPage'
 
 
 function App() {
@@ -42,20 +47,10 @@ function App() {
           </div>
         </section>
         <Nav />
-        <Login />
-        {/* <Contactos /> */}
-        {/* <BannerCursos />
-        <CursoDetails />
-        <CourseExplorerSearch />
-        <Banner />
-        <Partners />
-        <MaisPopularesCards />
-        <QueDiferenca />
-        <Testemunhos />
-        <JunteColLab />
-        
-        <MaisPopBtnComp /> */}
-       {/* <Footer /> */}
+        <Outlet/>
+
+        {/* <Footer/> */}
+
       </section>
     </>
   )

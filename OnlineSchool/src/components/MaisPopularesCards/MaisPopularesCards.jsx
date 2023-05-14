@@ -8,7 +8,7 @@ import MaisPopularesTitle from '../MaisPopularesTitle/MaisPopularesTitle'
 export default function MaisPopularesCards() {
   return (
     <section className='container mx-auto max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl'>
-      <section className='maisPopularesHead flex flex-col lg:flex-row justify-between items-center'>
+      <section className='maisPopularesHead flex flex-col  justify-between items-center'>
         <article>
           <MaisPopularesTitle />
         </article>

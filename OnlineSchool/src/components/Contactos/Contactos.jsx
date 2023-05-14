@@ -9,9 +9,9 @@ export default function Contactos() {
 
 
     return (
-        <section className='container mx-auto flex p-7 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl '>
-            <div className='formMap flex flex-col lg:flex-row mx-auto gap-5 bg-black p-10 justify-center roundedContainer'>
-                <fieldset className='fieldsetForm'>
+        <section className='container mx-auto max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl'>
+            <div className='formMap flex flex-col lg:flex-row mx-auto gap-5 bg-black/50 pjustify-center roundedContainer p-7'>
+                <fieldset className='fieldsetForm '>
                     <legend className='text-3xl'>Contactos</legend>
                     <form className='flex flex-col p-7 gap-4'>
                         <input className='inputFormContactos'
@@ -46,6 +46,10 @@ export default function Contactos() {
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade">
                         </iframe>
+                        <div className='contactosMorada'>
+                            <h4>Rua dos Cooperativistas, 70A</h4>
+                            <h4>8150-564 São Bras de Alportel</h4>
+                        </div>
                 </div>
                 
             </div>

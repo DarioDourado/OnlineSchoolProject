@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function Filter() {
   return (
-    <section className='filterComponent container flex max-w-screen-sm gap-2 p-2 flex-wrap justify-between items-center md:flex-row md:max-w-scree-md md:flex-nowrap xl:max-w-screen-lg mx-auto'>
+    <section className='filterComponent flex container mx-auto max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl md:flex-row md:max-w-scree-md md:flex-nowrap xl:max-w-screen-lg justify-center'>
         <button className='btnFilter'>Todos os Cursos</button>
         <button className='btnFilter'>Design</button>
         <button className='btnFilter'>Secretariado</button>

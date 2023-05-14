@@ -21,6 +21,7 @@
 
 .fieldsetForm{
     border-color: tomato;
+    min-height: 500px;
     min-width: 500px;
     border-radius: 25px;
 }
@@ -28,8 +29,8 @@
 
 .map-responsive iframe{
     position: relative;
-    min-height: 600px;
-    width: 500px;
+    min-height: 500px;
+    min-width: 500px;
     border-radius: 25px;
 
 }
@@ -42,5 +43,83 @@
 .roundedContainer{
     border-radius: 25px;
 }
-/* 
-max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl */
+
+.contactosMorada{
+    width: fit-content;
+    position: relative;
+    left: 350px;
+    top: -85px;
+    padding: 20px;
+    background-color: tomato;
+    z-index: 1;
+    border-radius: 25px 5px 25px 5px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .contactosMorada{
+        position: relative;
+        left: 475px;
+
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    .contactosMorada{
+        position: relative;
+        left: 265px;
+
+
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+
+    
+    .fieldsetForm{
+
+        min-height: 480px;
+        min-width: 480px;
+
+    }
+    
+    
+    .map-responsive iframe{
+        position: relative;
+        min-height: 480px;
+        min-width: 480px;
+      
+    }
+
+    .contactosMorada{
+        position: relative;
+        left: 245px;
+    }
+
+
+  }
+  @media only screen and (min-width: 1280px) {
+
+    
+    .fieldsetForm{
+
+        min-height: 500px;
+        min-width: 500px;
+
+    }
+    
+    
+    .map-responsive iframe{
+        position: relative;
+        min-height: 500px;
+        min-width: 500px;
+      
+    }
+
+    .contactosMorada{
+        position: relative;
+        left: 265px;
+    }
+
+
+  }
