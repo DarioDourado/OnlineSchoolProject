@@ -20,10 +20,6 @@ body{
     width: 100vw;
     background-color: #2C1F4A;
 }
-/* .container{
-    max-width: 1280px;
-    margin: auto;
-} */
 
 .menuBgRed{
     width: 6px;
@@ -161,12 +157,3 @@ h3{
     height: 100%;
   }
   
-  /* 
-   * Optional: Makes the sample page fill the window. 
-   */
-  html,
-  body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }

@@ -9,8 +9,6 @@ export default function Accordion() {
 
   const handleAccordion = (e) => {
 
-    console.log('Entrou')
-
     if(accordionConst.classList.contains('hidden') === true) {
       accordionConst.classList.remove('hidden')
       arrowBtnRotate.classList.remove('rotateBtn')
@@ -21,7 +19,6 @@ export default function Accordion() {
       arrowBtnRotate.classList.add('rotateBtn')
       sepDiv.classList.add('hidden')
     }
-
 
   }
 

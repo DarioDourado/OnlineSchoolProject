@@ -24,13 +24,15 @@ export default function Contactos() {
                         />
                         <input className='inputFormContactos'
                             type="text"
-                            placeholder='Digite a sua mensagem'
+                            placeholder='Assunto:'
                         />
                         <textarea className='textAreaFormContactos'
                         name="" 
                         id="" 
                         cols="30" 
-                        rows="10"></textarea>
+                        rows="10"
+                        placeholder='Digite a sua mensagem'
+                        ></textarea>
                         <div className='flex justify-end '>
                             <button className='btnFrom text-xl'>Enviar</button>
                         </div>

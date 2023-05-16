@@ -17,9 +17,9 @@ ul{
 }
 
 .navLi:hover{
-    background-color: var(--btn-hover-bg-color);
+    border-bottom: 2px solid var(--btn-hover-bg-color);
     cursor: pointer;
-    border-radius: 25px;
+    text-shadow: #FC0 1px 0 10px;
 }
 
 .navMenuUl{
@@ -33,4 +33,16 @@ ul{
 .logo h2{
     font-size: 2em;
     color: skyblue;
+}
+
+.hamburgerMenClose{
+    position: relative;
+    bottom: 80px;
+    left: 350px;
+}
+
+.hamburgerMenOpen{
+    position: relative;
+    bottom: 80px;
+    left: 325px;
 }

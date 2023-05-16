@@ -8,7 +8,7 @@ import ContactosPage from './Pages/ContactosPage.jsx'
 import Home from './Pages/Home.jsx'
 import LoginPage from './Pages/LoginPage.jsx'
 import RegisterPage from './Pages/RegisterPage.jsx'
-import TrabalheConnoscoPage from './Pages/TrabalheConnoscoPage.jsx'
+import TrabalheConoscoPage from './Pages/TrabalheConoscoPage.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -18,13 +18,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <App />
       <Routes>
-        <Route path='/LandingPage' element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route path='/Cursos' element={<CursosPage />} />
-        <Route path='/TrabalheConnosco' element={<TrabalheConnoscoPage />} />
+        <Route path='/TrabalheConosco' element={<TrabalheConoscoPage />} />
         <Route path='/Contactos' element={<ContactosPage />} />
         <Route path='/LoginPage' element={<LoginPage />} />
         <Route path='/RegisterPage' element={<RegisterPage/>} />
-
       </Routes>
     </BrowserRouter>
 

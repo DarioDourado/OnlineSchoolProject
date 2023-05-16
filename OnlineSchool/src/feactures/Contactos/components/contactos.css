@@ -1,13 +1,16 @@
-.inputFormContactos{
+.inputFormContactos {
     height: 55px;
     background-color: transparent;
     border: 1px solid white;
     padding: 10px;
+    border-radius: 5px;
 }
 
 .textAreaFormContactos{
     background-color: transparent;
     border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .btnFrom{
