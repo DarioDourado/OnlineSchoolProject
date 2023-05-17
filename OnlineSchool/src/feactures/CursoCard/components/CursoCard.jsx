@@ -5,7 +5,10 @@ import { useDispatch, useSelector } from "react-redux";
 
 
 
-export default function CursoCard() {
+export default function CursoCard(getAllCourses) {
+
+  
+  console.log(getAllCourses)
 
 
   return (
