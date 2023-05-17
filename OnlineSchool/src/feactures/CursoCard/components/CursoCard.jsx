@@ -1,9 +1,13 @@
 import React from 'react'
 import './cursoCard.css'
+import { useDispatch, useSelector } from "react-redux";
+
 
 
 
 export default function CursoCard() {
+
+
   return (
     <section className='cursoCard shadow-2xl'>
       

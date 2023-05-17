@@ -1,22 +1,27 @@
 import React from 'react'
-import Banner from '../components/Banner/Banner'
-import Partners from '../components/Partners/Partners'
-import MaisPopularesCards from '../components/MaisPopularesCards/MaisPopularesCards'
-import QueDiferenca from '../components/QueDiferenca/QueDiferenca'
-import Testemunhos from '../components/Testemunhos/Testemunhos'
-import JunteColLab from '../components/JunteColLab/JunteColLab'
-import Footer from '../components/Footer/Footer'
+import Banner from '../UI/Banner/components/Banner'
+import Partners from '../UI/Partners/components/Partners'
+import CoursesList from '../feactures/CoursesList/components/CoursesList'
+import QueDiferenca from '../UI/QueDiferenca/components/QueDiferenca'
+import Testemunhos from '../feactures/Testemunhos/components/Testemunhos'
+import JunteColLab from '../UI/JunteColLab/components/JunteColLab'
+import Footer from '../UI/Footer/components/Footer'
+import MaisPopularesTitle from '../UI/MaisPopularesTitle/components/MaisPopularesTitle'
+
 
 export default function Home() {
   return (
     <section>
         <Banner />
         <Partners />
-        <MaisPopularesCards />
+        <div className='flex justify-center'>
+          <MaisPopularesTitle />
+        </div>
+        <CoursesList />
         <QueDiferenca />
         <Testemunhos />
         <JunteColLab />
-        <Footer/>
+        <Footer />
     </section>
   )
 }

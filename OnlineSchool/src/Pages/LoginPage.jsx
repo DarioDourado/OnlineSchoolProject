@@ -1,12 +1,14 @@
 import React from 'react'
-import Login from '../components/Login/Login'
-import Footer from '../components/Footer/Footer'
+import Login from '../feactures/Login/components/Login'
+import Footer from '../UI/Footer/components/Footer'
+
 
 export default function LoginPage() {
   return (
     <section>
-        <Login/>
-        <Footer/>
+      <Login />
+      <Footer />
+
     </section>
   )
 }

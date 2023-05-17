@@ -1,8 +1,8 @@
 
-.maisPopularesHead h2{
+.coursesListHead h2{
     font-size: 3em;
 }
-.maisPopularesCards{
+.coursesListCards{
     margin-top: 45px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));

@@ -1,7 +1,8 @@
 import React from 'react'
 import './maisPopBtnComp.css'
-import MaisPopBtn from '../MaisPopBtn/MaisPopBtn'
-import MaisPopularesTitle from '../MaisPopularesTitle/MaisPopularesTitle'
+import MaisPopBtn from '../../MaisPopBtn/components/MaisPopBtn'
+
+
 
 export default function MaisPopBtnComp() {
   return (
@@ -10,6 +11,7 @@ export default function MaisPopBtnComp() {
         <h1>Categorias <span>mais populares</span></h1>
 
         <section className='grid grid-cols-3 gap-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 content-center'>
+            <MaisPopBtn />
             <MaisPopBtn />
             <MaisPopBtn />
             <MaisPopBtn />

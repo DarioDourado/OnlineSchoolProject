@@ -1,5 +1,5 @@
 import React from 'react'
-import './regForm.css'
+
 
 export default function TrabalheConoscoForm() {
 

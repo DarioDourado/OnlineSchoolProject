@@ -1,12 +1,16 @@
 import React from 'react'
-import RegForm from '../components/RegForm/RegForm'
-import Footer from '../components/Footer/Footer'
+import Footer from '../UI/Footer/components/Footer'
+import TrabalheConoscoForm from '../UI/TrabalheConosco/components/TrabalheConoscoForm'
+
 
 export default function TrabalheConnoscoPage() {
   return (
     <section>
-        <TrabalheConnoscoPage />
-        <Footer />
+      <h1 className='text-center'>Trabalhe Conosco</h1>
+      <TrabalheConoscoForm />
+      <Footer />
+
+
     </section>
 
     )

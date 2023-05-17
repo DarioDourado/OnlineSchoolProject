@@ -1,14 +1,10 @@
 import React from 'react'
 import './navStyle.css';
 import { Link } from 'react-router-dom'
-import React, { useState } from 'react'
 import {useDispatch} from 'react-redux';
 
 
 export default function Nav() {
-
-  const [handleMobileMenu, setHandleMobileMenu] = useState('hidden')
-
 
   return (
     <nav className='flex flex-auto flex-col lg:flex-row items-center justify-between gap-5 container mx-auto max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mb-10' >

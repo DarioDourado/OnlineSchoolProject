@@ -1,13 +1,14 @@
 import React from 'react'
-import Footer from '../components/Footer/Footer'
-import RegForm from '../components/RegForm/RegForm'
+import RegForm from '../UI/RegForm/components/RegForm'
+import Footer from '../UI/Footer/components/Footer'
+
 
 
 export default function RegisterPage() {
   return (
     <section>
         <RegForm />
-        <Footer/>
+        <Footer />
     </section>
   )
 }
