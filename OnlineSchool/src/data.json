@@ -3,21 +3,29 @@
     {
        "id":0,
        "titleCurso":"Python for Financial Analysis Next and Algorithmic Trading",
-       "authorCurso":"Adam Smith",
-       "alreadyRead":true,
-       "imageUrlImg":"angular.jpg",
-       "qtdEstudantes":"angular.jpg",
+       "authorCurso":{
+         "nome" : "Adam Smith",
+         "authorCursoTitle" : "Python Developer",
+         "authorCursoImg" : "https://picsum.photos/..."
+       },
+       "categorie":"Programming",
+       "courseImageUrl":"angular.jpg",
+       "qtdEstudantes":"85",
        "qtdStars":"5"
        
     },
-       {
-       "id":1,
-       "titleCurso":"Python for Financial Analysis Next and Algorithmic Trading",
-       "authorCurso":"Adam Smith",
-       "alreadyRead":true,
-       "imageUrlImg":"angular.jpg",
-       "qtdEstudantes":"angular.jpg",
-       "qtdStars":"5"
-       
-    }
+    {
+      "id":1,
+      "titleCurso":"Python for Financial Analysis Next and Algorithmic Trading",
+      "authorCurso":{
+        "nome" : "Dario Dourado",
+        "authorCursoTitle" : "Front-End Developer",
+        "authorCursoImg" : "https://picsum.photos/..."
+      },
+      "categorie":"Programming",
+      "courseImageUrl":"angular.jpg",
+      "qtdEstudantes":"50",
+      "qtdStars":"5"
+      
+   }
  ]}

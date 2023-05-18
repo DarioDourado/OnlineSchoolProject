@@ -5,10 +5,9 @@ import { useDispatch, useSelector } from "react-redux";
 
 
 
-export default function CursoCard(getAllCourses) {
+export default function CursoCard(coursesInfo) {
 
-  
-  console.log(getAllCourses)
+  let {id, titleCurso, qtdStars, qtdEstudantes, authorCurso: {nome, authorCursoTitle} } = coursesInfo
 
 
   return (
@@ -20,22 +19,22 @@ export default function CursoCard(getAllCourses) {
 
         <div className='cursoCardTitle'>
           <h4>
-          Python for Financial Analysis Next and Algorithmic Trading
+          {titleCurso}
           </h4>
           <div className='cardFotoName'>
             <img src="/images/cards/cardFoto.png" alt="" />
             <div className='cardFotoNameName'>
-              <h4>Adam Smith</h4>
-              <h5>Python Developer</h5>
+              <h5>{nome}</h5>
+              <h5>{authorCursoTitle} </h5>
             </div>
             <div className='cardFotoNameStudents'>
               <h4>
-                50+ Estudantes
+              {qtdEstudantes}+ Estudantes
               </h4>
             </div>
           </div>
           <div className='cardsFotoRevBtn'>
-            Reviews Stars
+            {qtdStars}
             <button className='btnComprar'>Comprar</button> 
           </div>
       </div>

@@ -1,19 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './coursesList.css'
 import Filter from '../../Filter/components/Filter'
 import CursoCard from '../../CursoCard/components/CursoCard'
-import coursesInfo from '../../../data.json'
+import { coursesInfo } from '../../../data.json'
 import { useDispatch } from "react-redux";
 import { useEffect } from 'react'
 import { getAllCourses } from '../CourseListSlice'
 
 export default function CoursesList() {
 
-  let dispatch = useDispatch();
-  dispatch(getAllCourses(coursesInfo))
+  const [cursos, setCursos] = useState(coursesInfo)
 
-  // const allCourses = coursesInfo
-  // console.log(allCourses)
+  // let dispatch = useDispatch();
+  // dispatch(getAllCourses(coursesInfo))
 
   // useEffect(() => {
   //   fetch('../../data.json')
@@ -33,16 +32,12 @@ export default function CoursesList() {
       </section>
 
       <article className='coursesListCards'>
-        <CursoCard />
 
-        {/* {
+        {
           coursesInfo.map( c => <CursoCard 
-            key={c.id}
-            coursesInfo={c}
-
-          />)
-        } */}
-
+            key={c.id} {...c}/>)
+        }
+        
       </article>
     </section>
   )
