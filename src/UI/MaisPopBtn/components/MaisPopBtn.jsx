@@ -1,12 +1,23 @@
 import React from 'react'
 import './maisPopBtn.css'
 
-export default function MaisPopBtn() {
+export default function MaisPopBtn(coursesInfo) {
+
+    let {
+        id,
+        curso: {
+          categorie
+        }
+      } = coursesInfo
+
+
+
+
     return (
         <section className='maisPopoBtnBox flex justify-between'>
             <button className='flex maisPopoBtnBtn'>
                 <section className='flex items-center justify-center text-lg w-32 h-10'>
-                    Design
+                    {categorie}
                 </section>
             </button>
             <div className='maisPopoBtnArrow w-12 h-10 flex items-center justify-center bg-black'>
