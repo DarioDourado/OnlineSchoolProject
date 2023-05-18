@@ -2,30 +2,141 @@
     "coursesInfo": [
     {
        "id":0,
-       "titleCurso":"Python for Financial Analysis Next and Algorithmic Trading",
-       "authorCurso":{
-         "nome" : "Adam Smith",
-         "authorCursoTitle" : "Python Developer",
-         "authorCursoImg" : "https://picsum.photos/..."
+       "curso":{
+        "titleCurso":"Python for Financial Analysis Next and Algorithmic Trading",
+        "subTitleCurso" : "Aprenda a desenvolver um programa com Python",
+        "descriptionCurso" : " Com este curso de Python irá aprender a desenvolver, ou não, cenas em Python",
+        "courseImageUrl":"https://picsum.photos/200/300",
+        "categorie":"Programming",
+        "bulletPointsCurso" : {
+          "bullet1" : "13,5h de Conteúdo em Video",
+          "bullet2" : "+ de 50 recursos para download",
+          "bullet3" : "5 Exercicios",
+          "bullet5" : "Certificado de Conclusão",
+          "bullet6" : "3 Artigos"
+        },
+        "qtdStars":"4.8",
+        "qtdEstudantes":"85",
+        "conteudoProgramaticoCurso" : {
+          "modulo 1" : {
+            "titleModulo1" : "Titulo do Módulo 1",
+            "descricaoModulo1" : "Descrição do Módulo 1",
+            "aulasModulo1" : {
+              "aula1": "Introdução do Módulo 1",
+              "aula2": "2ª Aula do Módulo 1"
+            }            
+          },
+          "modulo 2" : {
+            "titleModulo1" : "Titulo do Módulo 2",
+            "descricaoModulo1" : "Descrição do Módulo 2",
+            "aulasModulo1" : {
+              "aula1": "Introdução do Módulo 2",
+              "aula2": "2ª Aula do Módulo 2"
+            }            
+          }
+        }
        },
-       "categorie":"Programming",
-       "courseImageUrl":"angular.jpg",
-       "qtdEstudantes":"85",
-       "qtdStars":"5"
-       
+       "priceInfo" : {
+        "price" : "97,90",
+        "promoPrice" : "49,90"
+       },
+       "authorCurso":{
+         "nome" : "Dario Dourado",
+         "authorCursoTitle" : "Python Developer",
+         "authorCursoImg" : "https://picsum.photos/200/301."
+       }       
     },
     {
       "id":1,
-      "titleCurso":"Python for Financial Analysis Next and Algorithmic Trading",
-      "authorCurso":{
-        "nome" : "Dario Dourado",
-        "authorCursoTitle" : "Front-End Developer",
-        "authorCursoImg" : "https://picsum.photos/..."
+      "curso":{
+       "titleCurso":"Full Stack Web Development",
+       "subTitleCurso" : "Aprenda a desenvolver uma App web",
+       "descriptionCurso" : " Com este curso de Python irá aprender a desenvolver WebSites",
+       "courseImageUrl":"https://picsum.photos/200/300",
+       "categorie":"Design",
+       "bulletPointsCurso" : {
+         "bullet1" : "13,5h de Conteúdo em Video",
+         "bullet2" : "+ de 50 recursos para download",
+         "bullet3" : "5 Exercicios",
+         "bullet5" : "Certificado de Conclusão",
+         "bullet6" : "3 Artigos"
+       },
+       "qtdStars":"5",
+       "qtdEstudantes":"85",
+       "conteudoProgramaticoCurso" : {
+         "modulo 1" : {
+           "titleModulo1" : "Titulo do Módulo 1",
+           "descricaoModulo1" : "Descrição do Módulo 1",
+           "aulasModulo1" : {
+             "aula1": "Introdução do Módulo 1",
+             "aula2": "2ª Aula do Módulo 1"
+           }            
+         },
+         "modulo 2" : {
+           "titleModulo1" : "Titulo do Módulo 2",
+           "descricaoModulo1" : "Descrição do Módulo 2",
+           "aulasModulo1" : {
+             "aula1": "Introdução do Módulo 2",
+             "aula2": "2ª Aula do Módulo 2"
+           }            
+         }
+       }
       },
-      "categorie":"Programming",
-      "courseImageUrl":"angular.jpg",
-      "qtdEstudantes":"50",
-      "qtdStars":"5"
-      
-   }
+      "priceInfo" : {
+       "price" : "97,90",
+       "promoPrice" : "49,90"
+      },
+      "authorCurso":{
+        "nome" : "Adam Smith",
+        "authorCursoTitle" : "Python Developer",
+        "authorCursoImg" : "https://picsum.photos/200/301."
+      }       
+   },
+   {
+    "id":2,
+    "curso":{
+     "titleCurso":"Full Stack Web Development",
+     "subTitleCurso" : "Aprenda a desenvolver uma App web",
+     "descriptionCurso" : " Com este curso de Python irá aprender a desenvolver WebSites",
+     "courseImageUrl":"https://picsum.photos/200/300",
+     "categorie":"Design",
+     "bulletPointsCurso" : {
+       "bullet1" : "13,5h de Conteúdo em Video",
+       "bullet2" : "+ de 50 recursos para download",
+       "bullet3" : "5 Exercicios",
+       "bullet5" : "Certificado de Conclusão",
+       "bullet6" : "3 Artigos"
+     },
+     "qtdStars":"5",
+     "qtdEstudantes":"85",
+     "conteudoProgramaticoCurso" : {
+       "modulo 1" : {
+         "titleModulo1" : "Titulo do Módulo 1",
+         "descricaoModulo1" : "Descrição do Módulo 1",
+         "aulasModulo1" : {
+           "aula1": "Introdução do Módulo 1",
+           "aula2": "2ª Aula do Módulo 1"
+         }            
+       },
+       "modulo 2" : {
+         "titleModulo1" : "Titulo do Módulo 2",
+         "descricaoModulo1" : "Descrição do Módulo 2",
+         "aulasModulo1" : {
+           "aula1": "Introdução do Módulo 2",
+           "aula2": "2ª Aula do Módulo 2"
+         }            
+       }
+     }
+    },
+    "priceInfo" : {
+     "price" : "97,90",
+     "promoPrice" : "49,90"
+    },
+    "authorCurso":{
+      "nome" : "Adam Smith",
+      "authorCursoTitle" : "Python Developer",
+      "authorCursoImg" : "https://picsum.photos/200/301."
+    }       
+ }
+
  ]}

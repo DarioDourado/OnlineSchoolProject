@@ -11,30 +11,29 @@
     transition: all 0.35s ease-in-out;
 }
 
-.cursoCard img{
-    border-radius: 35px 35px 0 0;
-}
 
-.cardFotoBGImage{
-    width: auto;
+.cardFotoBGImage img{
+    width: 100%;
     height: 200px;
-    background-image: url("/images/cards/cardImgejpg.jpg");
     border-radius: 35px 35px 0 0;
-
 }
 
-.cardFotoName{
+
+/* .cardFotoName{
     display: flex;
     align-items: center;
-}
+} */
 
 .cardFotoName img{
     width: 80px;
     height: 80px;
+    border-radius: 50%;
 
 }
 
 .cursoCardTitle{
+    display: flex;
+    flex-direction: column;
     width: auto;
     padding: 10px;
     color: #D9ECFF;
