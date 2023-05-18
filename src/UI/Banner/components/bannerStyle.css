@@ -1,0 +1,28 @@
+.banner{
+    display: flex;
+
+}
+.bannerLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+/* 
+.bannerImgBg{
+    display: flex;
+    width: fit-content;
+
+    background-image: url("/public/images/banner/Boneco_Banner.png");
+    background-position: center center;
+    background-size: cover;
+
+}*/
+
+/* 
+.CourseExplorerBanner{
+
+    padding: 35px 0;
+    display: flex;
+
+    justify-content: flex-start; 
+}*/

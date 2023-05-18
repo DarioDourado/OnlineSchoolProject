@@ -1,0 +1,23 @@
+{
+    "coursesInfo": [
+    {
+       "id":0,
+       "titleCurso":"Python for Financial Analysis Next and Algorithmic Trading",
+       "authorCurso":"Adam Smith",
+       "alreadyRead":true,
+       "imageUrlImg":"angular.jpg",
+       "qtdEstudantes":"angular.jpg",
+       "qtdStars":"5"
+       
+    },
+       {
+       "id":1,
+       "titleCurso":"Python for Financial Analysis Next and Algorithmic Trading",
+       "authorCurso":"Adam Smith",
+       "alreadyRead":true,
+       "imageUrlImg":"angular.jpg",
+       "qtdEstudantes":"angular.jpg",
+       "qtdStars":"5"
+       
+    }
+ ]}

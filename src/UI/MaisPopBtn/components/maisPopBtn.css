@@ -1,0 +1,11 @@
+.maisPopoBtnArrow{
+    background-color: var(--btn2-bg-color);
+    border-radius: 15px;
+}
+
+.maisPopoBtnBox{
+    border: 1px solid var(--main-text-color);
+    border-radius: 15px;
+    width: 180px;
+
+}

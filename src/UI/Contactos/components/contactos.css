@@ -1,0 +1,128 @@
+.inputFormContactos {
+    height: 55px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.textAreaFormContactos{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btnFrom{
+    background-color: tomato;
+    width: 25%;
+    height: 45px;
+    position: relative;
+    bottom: 35px;
+    left: 45px;
+}
+
+.fieldsetForm{
+    border-color: tomato;
+    min-height: 500px;
+    min-width: 500px;
+    border-radius: 25px;
+}
+
+
+.map-responsive iframe{
+    position: relative;
+    min-height: 500px;
+    min-width: 500px;
+    border-radius: 25px;
+
+}
+
+.formMap{
+    display: flex;
+    justify-content: center;
+}
+
+.roundedContainer{
+    border-radius: 25px;
+}
+
+.contactosMorada{
+    width: fit-content;
+    position: relative;
+    left: 350px;
+    top: -85px;
+    padding: 20px;
+    background-color: tomato;
+    z-index: 1;
+    border-radius: 25px 5px 25px 5px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .contactosMorada{
+        position: relative;
+        left: 475px;
+
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    .contactosMorada{
+        position: relative;
+        left: 265px;
+
+
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+
+    
+    .fieldsetForm{
+
+        min-height: 480px;
+        min-width: 480px;
+
+    }
+    
+    
+    .map-responsive iframe{
+        position: relative;
+        min-height: 480px;
+        min-width: 480px;
+      
+    }
+
+    .contactosMorada{
+        position: relative;
+        left: 245px;
+    }
+
+
+  }
+  @media only screen and (min-width: 1280px) {
+
+    
+    .fieldsetForm{
+
+        min-height: 500px;
+        min-width: 500px;
+
+    }
+    
+    
+    .map-responsive iframe{
+        position: relative;
+        min-height: 500px;
+        min-width: 500px;
+      
+    }
+
+    .contactosMorada{
+        position: relative;
+        left: 265px;
+    }
+
+
+  }

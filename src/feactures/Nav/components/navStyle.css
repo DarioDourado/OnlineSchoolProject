@@ -1,0 +1,48 @@
+ul{
+    list-style: none;
+}
+
+/* .navContainer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+} */
+
+.navMenuTxt{
+    padding: 5px;
+    
+}
+.navMenuTxt:hover{
+    background-color: var(--btn-hover-bg-color);
+}
+
+.navLi:hover{
+    border-bottom: 2px solid var(--btn-hover-bg-color);
+    cursor: pointer;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.navMenuUl{
+    max-width: 80vw;
+}
+
+.navLi{
+    padding: 15px;
+}
+
+.logo h2{
+    font-size: 2em;
+    color: skyblue;
+}
+
+.hamburgerMenClose{
+    position: relative;
+    bottom: 80px;
+    left: 350px;
+}
+
+.hamburgerMenOpen{
+    position: relative;
+    bottom: 80px;
+    left: 325px;
+}

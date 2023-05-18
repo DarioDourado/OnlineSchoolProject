@@ -1,0 +1,17 @@
+.CursoDetailsShopCardMain{
+    color: black;
+}
+.imgCursoDetailsShopCardMain{
+    background-position: center;
+    /* background-size: cover; */
+
+    background-image: url('/public/images/CursoDetails/headerCursoDetails.png');
+    height: 100px;
+    width: 95%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 0 0 25px 25px;
+
+
+}
+

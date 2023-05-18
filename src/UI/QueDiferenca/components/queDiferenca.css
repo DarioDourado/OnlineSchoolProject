@@ -1,0 +1,61 @@
+.queDiferencaBannerRight{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* .queDiferencaContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.queDiferencaContainer h1 {
+    text-align: center;
+}
+
+.queDiferencaContainer h3 {
+    text-align: center;
+}
+
+
+.ico{
+    font-size: 44px;
+    color: white;
+}
+
+.icoBkg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: var(--btn2-bg-color);
+
+}
+
+.icoContainer{
+    display: flex;
+    gap: 15px;
+}
+
+.icoInfoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icoInfoContainer h2{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.icoContainers{
+    display: flex;
+
+    gap: 40px;
+
+}

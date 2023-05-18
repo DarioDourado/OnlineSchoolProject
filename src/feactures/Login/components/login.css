@@ -1,0 +1,75 @@
+.loginIMG{
+    background-image: url('/public/images/Login/LoginImage.png');
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: medium;
+    display: none;
+}
+
+.loginIMG h1{
+    text-shadow: rgb(255, 187, 0) 1px 0 10px;
+    color: black;
+}
+
+.loginForm input{
+    height: 45px;
+    padding: 5px;
+}
+
+.btnLogin{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding: 5px;
+    border-radius: 25px;
+    
+
+}
+
+.btnLogin button{
+    display: flex;
+    border: 1px solid white;
+    padding: 15px 20px;
+    border-radius: 25px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(73, 187, 189, 0.6);
+}
+
+.btnLogin2{
+    background-color: rgba(73, 187, 189, 0.6);
+    border-radius: 25px;
+    padding: 15px 20px;
+    width: 150px;
+    margin-top: 20px;
+}
+.btnLogin2:hover {
+    background-color: beige;
+    
+}
+
+.btnLog:hover {
+    background-color: #4ad8db;
+}
+
+
+.loginForm input{
+    border-radius: 25px;
+    padding: 15px;
+    color: gray;
+}
+
+.loginForm label{
+    text-align: start;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .loginIMG{
+        display:flex;
+    }
+  }

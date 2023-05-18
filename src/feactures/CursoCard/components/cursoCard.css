@@ -1,0 +1,76 @@
+
+.cursoCard{
+    width: 400px;
+    border: 3px solid rgba(145, 42, 214, 0.581);
+    border-radius: 35px;
+
+}
+
+.cursoCard:hover{
+    transform: scale(1.02);
+    transition: all 0.35s ease-in-out;
+}
+
+.cursoCard img{
+    border-radius: 35px 35px 0 0;
+}
+
+.cardFotoBGImage{
+    width: auto;
+    height: 200px;
+    background-image: url("/images/cards/cardImgejpg.jpg");
+    border-radius: 35px 35px 0 0;
+
+}
+
+.cardFotoName{
+    display: flex;
+    align-items: center;
+}
+
+.cardFotoName img{
+    width: 80px;
+    height: 80px;
+
+}
+
+.cursoCardTitle{
+    width: auto;
+    padding: 10px;
+    color: #D9ECFF;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.cardFotoNameName h4{
+    margin: 0;
+    text-align: left;
+    font-size: 1.2em;
+    color: #D9ECFF;
+
+    
+}
+
+.cardFotoNameName h5{
+    margin: 0;
+    text-align: left;
+}
+.cardFotoNameName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.cardFotoNameStudents{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.cardsFotoRevBtn{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
