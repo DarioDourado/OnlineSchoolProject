@@ -12,7 +12,6 @@ export default function MaisPopBtn(coursesInfo) {
 
 
 
-
     return (
         <section className='maisPopoBtnBox flex justify-between'>
             <button className='flex maisPopoBtnBtn'>

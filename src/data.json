@@ -107,7 +107,7 @@
        "bullet5" : "Certificado de Conclusão",
        "bullet6" : "3 Artigos"
      },
-     "qtdStars":"5",
+     "qtdStars":"4.5",
      "qtdEstudantes":"85",
      "conteudoProgramaticoCurso" : {
        "modulo 1" : {
@@ -129,12 +129,12 @@
      }
     },
     "priceInfo" : {
-     "price" : "97,90",
-     "promoPrice" : "49,90"
+     "price" : "67,90",
+     "promoPrice" : "29,90"
     },
     "authorCurso":{
-      "nome" : "Adam Smith",
-      "authorCursoTitle" : "Python Developer",
+      "nome" : "Jorge Martins Smith",
+      "authorCursoTitle" : "Excel Developer",
       "authorCursoImg" : "https://picsum.photos/200/301."
     }       
  }
