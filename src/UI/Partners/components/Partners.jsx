@@ -1,6 +1,6 @@
 import React from 'react'
 import './partners.css'
-import { TextField } from '@mui/material'
+
 
 export default function Partners() {
   return (

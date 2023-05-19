@@ -9,16 +9,16 @@ export default function CursoCard(coursesInfo) {
 
   let {
     id,
-    curso: {
-      titleCurso,
+    course: {
+      titleCourse,
       courseImageUrl,
-      qtdEstudantes,
+      qtdStudants,
       qtdStars
     },
     authorCurso: {
-      nome,
-      authorCursoTitle,
-      authorCursoImg,
+      name,
+      authorCourseTitle,
+      authorCourseImg,
     }
   } = coursesInfo
 
@@ -27,25 +27,25 @@ export default function CursoCard(coursesInfo) {
     <section className='cursoCard shadow-2xl'>
 
       <div className='cardFotoBGImage'>
-        <img src={courseImageUrl} alt="" />
+        <img src={courseImageUrl} alt={titleCourse} />
       </div>
 
       <div className='cursoCardTitle'>
         <div className='h-16'>
           <h4>
-            {titleCurso}
+            {titleCourse}
           </h4>
         </div>
         <div className='cardFotoName flex'>
 
-          <img src={courseImageUrl} alt={titleCurso} />
+          <img src={courseImageUrl} alt={name} />
           <div className='cardFotoNameName'>
-            <h5>{nome}</h5>
-            <h5>{authorCursoTitle} </h5>
+            <h5 className='w-32'>{name}</h5>
+            <h5 className='w-32'>{authorCourseTitle} </h5>
           </div>
           <div className='cardFotoNameStudents'>
             <h4>
-              {qtdEstudantes}+ Estudantes
+              {qtdStudants}+ Estudantes
             </h4>
           </div>
         </div>
