@@ -1,6 +1,7 @@
 import React from 'react'
 import './cursoDetails.css'
-import CursoDetailsShopCard from '../CursoDetailsShopCard/CursoDetailsShopCard'
+import CursoDetailsShopCard from '../../CursoDetailsShopCard/components/CursoDetailsShopCard'
+
 
 export default function CursoDetails() {
   return (

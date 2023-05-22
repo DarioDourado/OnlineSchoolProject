@@ -7,7 +7,7 @@ export default function MaisPopBtn({uniCat}) {
     return (
         <section className='maisPopoBtnBox flex justify-between'>
             <button className='flex maisPopoBtnBtn'>
-                <section className='flex items-center justify-center text-lg w-32 h-10'>
+                <section className='flex justify-center text-lg w-32 h-auto'>
                     {uniCat}
                 </section>
             </button>

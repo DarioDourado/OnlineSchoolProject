@@ -157,3 +157,9 @@ h3{
     height: 100%;
   }
   
+
+.btnSubmit{
+    background-color: tomato;
+    padding: 5px 15px;
+    border-radius: 5px;
+}

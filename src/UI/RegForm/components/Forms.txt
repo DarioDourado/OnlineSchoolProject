@@ -1,0 +1,55 @@
+           <Formik >
+
+                <form className='flex flex-col p-7 gap-4'>
+
+                    <input
+                        type="text"
+                        placeholder="Enter your First Name"
+                        className='inputFormContactos'
+                        id="firstName"
+                        name="firstName"
+                        onChange={formik.handleChange}
+                        value={formik.values.firsttName}
+                    />
+
+                    <input
+                        type="text"
+                        placeholder="Enter your First Name"
+                        className='inputFormContactos'
+                        id="lastName"
+                        name="lastName"
+                        onChange={formik.handleChange}
+                        value={formik.values.lastName}
+                    />
+
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Enter email address"
+                        className='inputFormContactos'
+                        id="email"
+                        onChange={formik.handleChange}
+                        value={formik.values.email}
+                    />
+
+                    <input
+                        type="password"
+                        name="password"
+                        placeholder="Enter your password"
+                        className='inputFormContactos'
+                        id="password"
+                        onChange={formik.handleChange}
+                        value={formik.values.password}
+                    />
+
+                    <div className='flex justify-end '>
+                        <button
+                            type="submit"
+                            className='btnSubmit text-xl '
+                        >
+                            Submit
+                        </button>
+                    </div>
+                </form>
+
+            </Formik>

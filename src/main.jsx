@@ -11,6 +11,7 @@ import Home from './Pages/Home.jsx'
 import LoginPage from './Pages/LoginPage.jsx'
 import RegisterPage from './Pages/RegisterPage.jsx'
 import TrabalheConoscoPage from './Pages/TrabalheConoscoPage.jsx'
+import CursoDetails from './feactures/CursoDetails/components/CursoDetails.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -27,6 +28,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path='/Contactos' element={<ContactosPage />} />
           <Route path='/LoginPage' element={<LoginPage />} />
           <Route path='/RegisterPage' element={<RegisterPage />} />
+          <Route path='/CursoDetails' element={<CursoDetails />} />
         </Routes>
       </BrowserRouter>
 

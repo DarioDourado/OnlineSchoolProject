@@ -6,6 +6,7 @@ import { coursesInfo } from '../../../data.json'
 import { useDispatch } from "react-redux";
 import { useEffect } from 'react'
 import { getAllCourses } from '../CourseListSlice'
+import CursoDetails from '../../CursoDetails/components/CursoDetails'
 
 export default function CoursesList() {
 
@@ -20,12 +21,12 @@ export default function CoursesList() {
       </section>
 
       <article className='coursesListCards'>
-
+      
         {
-          coursesInfo.map( c => <CursoCard 
-            key={c.id} {...c}/>)
+          coursesInfo.map(c => <CursoCard
+            key={c.id} {...c} />)
         }
-        
+
       </article>
     </section>
   )

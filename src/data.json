@@ -7,7 +7,7 @@
         "subTitleCourse" : "Aprenda a desenvolver um programa com Python",
         "descriptionCourse" : " Com este curso de Python irá aprender a desenvolver, ou não, cenas em Python",
         "courseImageUrl":"https://picsum.photos/500/300",
-        "categorie":"Programming",
+        "categorie":"Web Development",
         "bulletPointsCourse" : {
           "bullet1" : "13,5h de Conteúdo em Video",
           "bullet2" : "+ de 50 recursos para download",

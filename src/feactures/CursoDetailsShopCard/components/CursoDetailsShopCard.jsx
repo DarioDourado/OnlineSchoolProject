@@ -1,7 +1,7 @@
 import React from 'react'
 import './cursoDetailsShopCard.css'
-import Social from '../Social/Social'
-import Accordion from '../Accordion/Accordion'
+import Social from '../../../UI/Social/components/Social'
+import Accordion from '../../Accordion/components/Accordion'
 
 
 
@@ -68,9 +68,7 @@ export default function CursoDetailsShopCard() {
                 <h1>Conteúdo Programático</h1>
                 <section>
                     <Accordion />
-                    <Accordion />
-                    <Accordion />
-                    <Accordion />
+
                 
                 </section>
 
