@@ -59,6 +59,7 @@ export default function CursoCard(coursesInfo) {
           <button className='btnComprar'>Comprar</button>
         </div>
       </div>
+      
     </section>
   )
 }
