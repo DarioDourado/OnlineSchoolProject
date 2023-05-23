@@ -3,6 +3,7 @@ import courseListSlice from '../feactures/CoursesList/CourseListSlice';
 
 export default configureStore({
     reducer:{
-        allDataCourses: courseListSlice,
+        
+        courseLibrary: courseListSlice,
     }
 });

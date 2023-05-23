@@ -11,7 +11,7 @@ export default function Banner() {
           <h3>
             Provides you with the latest online learning system and material that help your knowledge growing.
           </h3>
-          <div className='CourseExplorerBanner'>
+          <div className='CourseExplorerBanner flex justify-center md:justify-start'>
             <CourseExplorerSearch />
           </div>
         </section>
