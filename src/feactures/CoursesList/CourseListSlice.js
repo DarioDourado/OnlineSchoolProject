@@ -4,22 +4,22 @@ import { createSlice } from "@reduxjs/toolkit";
 export const courseListSlice = createSlice({
 
     // Identificador slice = DataCourses
-    name: 'DataCourses',
+    name: 'dataCourses',
 
     initialState:{
         //Array vazia
-        DataCourses: [],
+        dataCourses: [],
         filteredCourses: [],
     },
 
-    Reducers:{
+    reducers:{
         //Reducers de Actualização
         getAllCoursesData: (state, action) => {
-            state.DataCourses = action.payload;
+            state.dataCourses = action.payload;
             state.filteredCourses = action.payload;
         }
     }
 });
 
-export const getAllDataCourses  = courseListSlice.actions;
+export const { getAllCoursesData }  = courseListSlice.actions;
 export default courseListSlice.reducer;

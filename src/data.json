@@ -1,140 +1,142 @@
 {
-    "coursesInfo": [
+  "coursesInfo": [
     {
-       "id":0,
-       "course":{
-        "titleCourse":"Python for Financial Analysis Next and Algorithmic Trading",
-        "subTitleCourse" : "Aprenda a desenvolver um programa com Python",
-        "descriptionCourse" : " Com este curso de Python irá aprender a desenvolver, ou não, cenas em Python",
-        "courseImageUrl":"https://picsum.photos/500/300",
-        "categorie":"Web Development",
-        "bulletPointsCourse" : {
-          "bullet1" : "13,5h de Conteúdo em Video",
-          "bullet2" : "+ de 50 recursos para download",
-          "bullet3" : "5 Exercicios",
-          "bullet5" : "Certificado de Conclusão",
-          "bullet6" : "3 Artigos"
+      "id": 0,
+      "course": {
+        "titleCourse": "Python for Financial Analysis Next and Algorithmic Trading",
+        "subTitleCourse": "Aprenda a desenvolver um programa com Python",
+        "descriptionCourse": " Com este curso de Python irá aprender a desenvolver, ou não, cenas em Python",
+        "courseImageUrl": "https://picsum.photos/500/300",
+        "categorie": "Web Development",
+        "bulletPointsCourse": {
+          "bullet1": "13,5h de Conteúdo em Video",
+          "bullet2": "+ de 50 recursos para download",
+          "bullet3": "5 Exercicios",
+          "bullet4": "Resposta ás suas questões em 24h",
+          "bullet5": "Certificado de Conclusão",
+          "bullet6": "3 Artigos"
         },
-        "qtdStars":"4.8",
-        "qtdStudants":"55",
-        "Content" : {
-          "modulo1" : {
-            "titleModule1" : "Titulo do Módulo 1",
-            "descModule1" : "Descrição do Módulo 1",
-            "lessonsModule1" : {
+        "qtdStars": "4.8",
+        "qtdStudants": "55",
+        "Content": {
+          "modulo1": {
+            "titleModule1": "Titulo do Módulo 1",
+            "descModule1": "Descrição do Módulo 1",
+            "lessonsModule1": {
               "lesson1": "Introdução do Módulo 1",
               "lesson2": "2ª Aula do Módulo 1"
-            }            
+            }
           },
-          "modulo2" : {
-            "titleModule2" : "Titulo do Módulo 2",
-            "descModule2" : "Descrição do Módulo 2",
-            "lessonsModule2" : {
+          "modulo2": {
+            "titleModule2": "Titulo do Módulo 2",
+            "descModule2": "Descrição do Módulo 2",
+            "lessonsModule2": {
               "lesson1": "Introdução do Módulo 2"
-            }            
+            }
           }
         }
-       },
-       "priceInfo" : {
-        "price" : "97,90",
-        "promoPrice" : "49,90"
-       },
-       "authorCurso":{
-         "name" : "Dario Dourado",
-         "authorCourseTitle" : "Python Developer",
-         "authorCourseImg" : "https://picsum.photos/150/151."
-       }       
+      },
+      "priceInfo": {
+        "price": "97,90",
+        "promoPrice": "49,90"
+      },
+      "authorCurso": {
+        "name": "Dario Dourado",
+        "authorCourseTitle": "Python Developer",
+        "authorCourseImg": "https://picsum.photos/150/151."
+      }
     },
     {
-      "id":1,
-      "course":{
-       "titleCourse":"Front-End Web Development",
-       "subTitleCourse" : "Aprenda a desenvolver uma App Web",
-       "descriptionCourse" : " Com este curso de Front-End irá aprender a desenvolver, Apps Web",
-       "courseImageUrl":"https://picsum.photos/501/302",
-       "categorie":"Programming",
-       "bulletPointsCourse" : {
-         "bullet1" : "20h de Conteúdo em Video",
-         "bullet2" : "+ de 50 recursos para download",
-         "bullet3" : "12 Exercicios",
-         "bullet5" : "Certificado de Conclusão",
-         "bullet6" : "6 Artigos"
-       },
-       "qtdStars":"4.7",
-       "qtdStudants":"85",
-       "Content" : {
-         "modulo1" : {
-           "titleModule1" : "Titulo do Módulo 1",
-           "descModule1" : "Descrição do Módulo 1",
-           "lessonsModule1" : {
-             "lesson1": "Introdução do Módulo 1",
-             "lesson2": "2ª Aula do Módulo 1"
-           }            
-         },
-         "modulo2" : {
-           "titleModule2" : "Titulo do Módulo 2",
-           "descModule2" : "Descrição do Módulo 2",
-           "lessonsModule2" : {
-             "lesson1": "Introdução do Módulo 2"
-           }            
-         }
-       }
+      "id": 1,
+      "course": {
+        "titleCourse": "Front-End Web Development",
+        "subTitleCourse": "Aprenda a desenvolver uma App Web",
+        "descriptionCourse": " Com este curso de Front-End irá aprender a desenvolver, Apps Web",
+        "courseImageUrl": "https://picsum.photos/501/302",
+        "categorie": "Programming",
+        "bulletPointsCourse": {
+          "bullet1": "20h de Conteúdo em Video",
+          "bullet2": "+ de 50 recursos para download",
+          "bullet3": "12 Exercicios",
+          "bullet4": "Resposta ás suas questões em 24h",
+          "bullet5": "Certificado de Conclusão",
+          "bullet6": "6 Artigos"
+        },
+        "qtdStars": "4.7",
+        "qtdStudants": "85",
+        "Content": {
+          "modulo1": {
+            "titleModule1": "Titulo do Módulo 1",
+            "descModule1": "Descrição do Módulo 1",
+            "lessonsModule1": {
+              "lesson1": "Introdução do Módulo 1",
+              "lesson2": "2ª Aula do Módulo 1"
+            }
+          },
+          "modulo2": {
+            "titleModule2": "Titulo do Módulo 2",
+            "descModule2": "Descrição do Módulo 2",
+            "lessonsModule2": {
+              "lesson1": "Introdução do Módulo 2"
+            }
+          }
+        }
       },
-      "priceInfo" : {
-       "price" : "87,90",
-       "promoPrice" : "49,90"
+      "priceInfo": {
+        "price": "87,90",
+        "promoPrice": "49,90"
       },
-      "authorCurso":{
-        "name" : "Adam Smith",
-        "authorCourseTitle" : "Front-End Developer",
-        "authorCourseImg" : "https://picsum.photos/149/151."
-      }       
-   },
-   {
-    "id":2,
-    "course":{
-     "titleCourse":"Excel de Iniciante ao Avançado",
-     "subTitleCourse" : "Aprenda a organizar os seu ficheiros excel",
-     "descriptionCourse" : " Com este curso de Python irá aprender a desenvolver, ou não, cenas em Python",
-     "courseImageUrl":"https://picsum.photos/501/299",
-     "categorie":"Excel",
-     "bulletPointsCourse" : {
-       "bullet1" : "13,5h de Conteúdo em Video",
-       "bullet2" : "+ de 50 recursos para download",
-       "bullet3" : "5 Exercicios",
-       "bullet5" : "Certificado de Conclusão",
-       "bullet6" : "3 Artigos"
-     },
-     "qtdStars":"4.6",
-     "qtdStudants":"45",
-     "Content" : {
-       "modulo1" : {
-         "titleModule1" : "Titulo do Módulo 1",
-         "descModule1" : "Descrição do Módulo 1",
-         "lessonsModule1" : {
-           "lesson1": "Introdução do Módulo 1",
-           "lesson2": "2ª Aula do Módulo 1"
-         }            
-       },
-       "modulo2" : {
-         "titleModule2" : "Titulo do Módulo 2",
-         "descModule2" : "Descrição do Módulo 2",
-         "lessonsModule2" : {
-           "lesson1": "Introdução do Módulo 2"
-         }            
-       }
-     }
+      "authorCurso": {
+        "name": "Adam Smith",
+        "authorCourseTitle": "Front-End Developer",
+        "authorCourseImg": "https://picsum.photos/149/151."
+      }
     },
-    "priceInfo" : {
-     "price" : "97,90",
-     "promoPrice" : "49,90"
-    },
-    "authorCurso":{
-      "name" : "Jorge Silva",
-      "authorCourseTitle" : "Excel Expert",
-      "authorCourseImg" : "https://picsum.photos/150/150."
-    }       
- }
-    
-
- ]}
+    {
+      "id": 2,
+      "course": {
+        "titleCourse": "Excel de Iniciante ao Avançado",
+        "subTitleCourse": "Aprenda a organizar os seu ficheiros excel",
+        "descriptionCourse": " Com este curso de Python irá aprender a desenvolver, ou não, cenas em Python",
+        "courseImageUrl": "https://picsum.photos/501/299",
+        "categorie": "Excel",
+        "bulletPointsCourse": {
+          "bullet1": "13,5h de Conteúdo em Video",
+          "bullet2": "+ de 50 recursos para download",
+          "bullet3": "5 Exercicios",
+          "bullet4": "Resposta ás suas questões em 24h",
+          "bullet5": "Certificado de Conclusão",
+          "bullet6": "3 Artigos"
+        },
+        "qtdStars": "4.6",
+        "qtdStudants": "45",
+        "Content": {
+          "modulo1": {
+            "titleModule1": "Titulo do Módulo 1",
+            "descModule1": "Descrição do Módulo 1",
+            "lessonsModule1": {
+              "lesson1": "Introdução do Módulo 1",
+              "lesson2": "2ª Aula do Módulo 1"
+            }
+          },
+          "modulo2": {
+            "titleModule2": "Titulo do Módulo 2",
+            "descModule2": "Descrição do Módulo 2",
+            "lessonsModule2": {
+              "lesson1": "Introdução do Módulo 2"
+            }
+          }
+        }
+      },
+      "priceInfo": {
+        "price": "97,90",
+        "promoPrice": "49,90"
+      },
+      "authorCurso": {
+        "name": "Jorge Silva",
+        "authorCourseTitle": "Excel Expert",
+        "authorCourseImg": "https://picsum.photos/150/150."
+      }
+    }
+  ]
+}
