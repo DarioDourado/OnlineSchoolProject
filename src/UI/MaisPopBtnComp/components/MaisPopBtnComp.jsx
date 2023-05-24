@@ -1,6 +1,6 @@
 import React from 'react'
 import './maisPopBtnComp.css'
-import MaisPopBtn from '../../MaisPopBtn/components/MaisPopBtn'
+import MaisPopBtn from '../../maisPopBtn/components/MaisPopBtn'
 import { coursesInfo } from '../../../data.json'
 
 
@@ -12,10 +12,6 @@ export default function MaisPopBtnComp() {
   let categories = coursesInfo.map( c => c.course.categorie)
 
   let uniqueCategories = [...new Set(categories)];
-
-
-  console.log(categories)
-  console.log(uniqueCategories)
 
   return (
     <section className=' flex flex-col items-center container max-w-screen-sm mx-auto md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl'>

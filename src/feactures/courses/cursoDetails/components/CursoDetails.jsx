@@ -3,6 +3,7 @@ import './cursoDetails.css'
 import CursoDetailsShopCard from '../../CursoDetailsShopCard/components/CursoDetailsShopCard'
 
 
+
 export default function CursoDetails() {
   return (
     <section>

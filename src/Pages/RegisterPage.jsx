@@ -1,7 +1,7 @@
 import React from 'react'
-import RegForm from '../UI/RegForm/components/RegForm'
-import Footer from '../UI/Footer/components/Footer'
-import RegFormTeste from '../UI/RegForm/components/RegFormTeste'
+import RegForm from '../ui/segForm/components/RegForm'
+import Footer from '../ui/footer/components/Footer'
+import RegFormTeste from '../ui/segForm/components/RegFormTeste'
 
 
 

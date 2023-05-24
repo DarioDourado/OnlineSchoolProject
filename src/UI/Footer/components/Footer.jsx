@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import Social from '../../Social/components/Social'
+import Social from '../../social/components/Social'
 
 
 export default function Footer() {

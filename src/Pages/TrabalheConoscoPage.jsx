@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from '../UI/Footer/components/Footer'
-import TrabalheConoscoForm from '../UI/TrabalheConosco/components/TrabalheConoscoForm'
+import Footer from '../ui/footer/components/Footer'
+import TrabalheConoscoForm from '../ui/trabalheConosco/components/TrabalheConoscoForm'
 
 
 export default function TrabalheConnoscoPage() {

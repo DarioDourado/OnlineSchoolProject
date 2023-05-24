@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from '../UI/Footer/components/Footer'
-import Contactos from '../UI/Contactos/components/Contactos'
+import Footer from '../ui/footer/components/Footer'
+import Contactos from '../ui/contactos/components/Contactos'
 
 
 export default function ContactosPage() {

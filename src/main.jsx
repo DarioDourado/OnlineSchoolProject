@@ -5,13 +5,14 @@ import './index.css'
 import { Provider } from 'react-redux';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import store from '../src/app/store.js'
-import CursosPage from './Pages/CursosPage.jsx'
-import ContactosPage from './Pages/ContactosPage.jsx'
-import Home from './Pages/Home.jsx'
-import LoginPage from './Pages/LoginPage.jsx'
-import RegisterPage from './Pages/RegisterPage.jsx'
-import TrabalheConoscoPage from './Pages/TrabalheConoscoPage.jsx'
-import CursoDetails from './feactures/CursoDetails/components/CursoDetails.jsx';
+import CursosPage from './pages/CursosPage.jsx'
+import ContactosPage from './pages/ContactosPage.jsx'
+import Home from './pages/Home.jsx'
+import LoginPage from './pages/LoginPage.jsx'
+import RegisterPage from './pages/RegisterPage.jsx'
+import TrabalheConoscoPage from './pages/trabalheConoscoPage.jsx'
+import CursoDetails from './feactures/Courses/CursoDetails/components/CursoDetails.jsx';
+
 
 
 

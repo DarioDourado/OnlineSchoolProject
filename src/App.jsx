@@ -2,7 +2,7 @@
 import './App.css'
 
 import { Outlet } from 'react-router-dom'
-import Nav from './feactures/Nav/components/Nav'
+import Nav from './feactures/nav/components/Nav'
 
 
 

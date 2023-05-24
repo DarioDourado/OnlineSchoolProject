@@ -1,6 +1,6 @@
 import React from 'react'
 import './bannerStyle.css'
-import CourseExplorerSearch from '../../../feactures/CourseExplorer/components/CourseExplorerSearch'
+import CourseExplorerSearch from '../../../feactures/courses/courseExplorer/components/CourseExplorerSearch'
 
 
 export default function Banner() {

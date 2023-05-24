@@ -1,9 +1,9 @@
 import {configureStore} from '@reduxjs/toolkit';
-import courseListSlice from '../feactures/CoursesList/CourseListSlice';
+import courseSlice from '../feactures/courses/CourseSlice';
 
 export default configureStore({
     reducer:{
         
-        courseLibrary: courseListSlice,
+        courseLibrary: courseSlice,
     }
 });

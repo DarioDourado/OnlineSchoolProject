@@ -1,6 +1,6 @@
 import React from 'react'
-import Login from '../feactures/Login/components/Login'
-import Footer from '../UI/Footer/components/Footer'
+import Login from '../feactures/login/components/Login'
+import Footer from '../ui/footer/components/Footer'
 
 
 export default function LoginPage() {
