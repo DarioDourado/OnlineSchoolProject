@@ -2,7 +2,6 @@ import React from 'react'
 import './regForm.css'
 import { Formik, Form, Field, ErrorMessage, useFormik, yupToFormErrors, validateYupSchema } from "formik";
 import * as Yup from "yup"
-import YupPassword from 'yup-password'
 
 export default function RegForm() {
 
