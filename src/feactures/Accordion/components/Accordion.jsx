@@ -12,8 +12,14 @@ export default function Accordion(props) {
 
   let content = curso.course.content
 
- console.log(content.modulo1.lessonsModule1)
-//  console.log(content.modulo1.lessonsModule1.map(les => les.))
+
+
+  let genders = Object.values(content)
+
+  console.log(genders.map( (genders, index) => genders))
+
+
+
 
 
   const accordionConst = document.getElementById('accord')
@@ -22,17 +28,16 @@ export default function Accordion(props) {
 
   const handleAccordion = (e) => {
 
-    if(accordionConst.classList.contains('hidden') === true) {
-      accordionConst.classList.remove('hidden')
-      arrowBtnRotate.classList.remove('rotateBtn')
-      sepDiv.classList.remove('hidden')
-    }
-    else if(accordionConst.classList.contains('hidden') === false) {
-      accordionConst.classList.add('hidden')
-      arrowBtnRotate.classList.add('rotateBtn')
-      sepDiv.classList.add('hidden')
-    }
-
+    // if(accordionConst.classList.contains('hidden') === true) {
+    //   accordionConst.classList.remove('hidden')
+    //   arrowBtnRotate.classList.remove('rotateBtn')
+    //   sepDiv.classList.remove('hidden')
+    // }
+    // else if(accordionConst.classList.contains('hidden') === false) {
+    //   accordionConst.classList.add('hidden')
+    //   arrowBtnRotate.classList.add('rotateBtn')
+    //   sepDiv.classList.add('hidden')
+    // }
   }
 
 
@@ -67,7 +72,7 @@ export default function Accordion(props) {
         </div>
       </div> 
       <div className='hrSep hidden' id='sepDiv'></div>
-      <div className='flex justify-between gap-2 hidden' id='accord'>
+      <div className='flex justify-between gap-2' id='accord'>
         <div className='flex flex-col w-5/6 mb-7'>
           <div className='flex gap-4 ml-5 justify-between'>
             <h4 className='text-xl w-11/12 ml-3 justify-start flex'>{content.modulo1.lessonsModule1.lesson1}</h4>
@@ -75,7 +80,7 @@ export default function Accordion(props) {
           </div>
           <div className='flex gap-4 ml-5 justify-between'>
             {/* {
-              content.modulo1.lessonsModule1.map(lesson => lesson)
+              content.modulo1.lessonsModule1.map(lesson => lesson.lesson1)
             } */}
 
             <h4 className='text-xl w-11/12 ml-3 justify-start flex'>{content.modulo1.lessonsModule1.lesson2}</h4>
