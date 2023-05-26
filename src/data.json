@@ -18,7 +18,7 @@
         },
         "qtdStars": "4.8",
         "qtdStudants": "55",
-        "Content": {
+        "content": {
           "modulo1": {
             "titleModule1": "Titulo do Módulo 1",
             "descModule1": "Descrição do Módulo 1",
@@ -64,9 +64,9 @@
         },
         "qtdStars": "4.7",
         "qtdStudants": "85",
-        "Content": {
+        "content": {
           "modulo1": {
-            "titleModule1": "Titulo do Módulo 1",
+            "titleModule1": "Titulo do Módulo 1 - Dados",
             "descModule1": "Descrição do Módulo 1",
             "lessonsModule1": {
               "lesson1": "Introdução do Módulo 1",
@@ -110,7 +110,7 @@
         },
         "qtdStars": "4.6",
         "qtdStudants": "45",
-        "Content": {
+        "content": {
           "modulo1": {
             "titleModule1": "Titulo do Módulo 1",
             "descModule1": "Descrição do Módulo 1",

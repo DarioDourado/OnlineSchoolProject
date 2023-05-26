@@ -1,7 +1,20 @@
 import React from 'react'
 import './accordion.css'
+import { useSelector } from 'react-redux'
+import { useParams } from 'react-router-dom'
 
-export default function Accordion() {
+export default function Accordion(props) {
+
+
+  let params = useParams()
+
+  const curso = useSelector(state => state.courseLibrary.dataCourses.find(c => c.id == params.id))
+
+  let content = curso.course.content
+
+ console.log(content.modulo1.lessonsModule1)
+//  console.log(content.modulo1.lessonsModule1.map(les => les.))
+
 
   const accordionConst = document.getElementById('accord')
   const arrowBtnRotate = document.getElementById('arrowBtn')
@@ -33,11 +46,11 @@ export default function Accordion() {
         <div className='w-12 flex justify-center items-center '>
             <h2 className='text-3xl '>1</h2>
         </div>
-            <h3 className='text-2xl text-black p-4'>Modulo 1 - Título do Modulo 1</h3>
+            <h3 className='text-2xl text-black p-4'>{content.modulo1.tittleModule1}</h3>
           </div>
           <div className='flex gap-4 ml-5 justify-between'>
-            <h4 className='text-xl w-9/12 ml-3 justify-start flex'>Descrição Referente ao módulo 1</h4>
-            <h4 className='text-xl w-2/12 ml-3 justify-start flex'>3 Aulas</h4>
+            <h4 className='text-xl w-9/12 ml-3 justify-start flex'>{content.modulo1.descModule1}</h4>
+            <h4 className='text-xl w-2/12 ml-3 justify-start flex'>{Object.entries(content.modulo1.lessonsModule1).length} Aulas</h4>
             <h4 className='text-xl w-2/12 ml-3 justify-start flex'>61:30</h4>
           </div>
         </div>
@@ -57,15 +70,15 @@ export default function Accordion() {
       <div className='flex justify-between gap-2 hidden' id='accord'>
         <div className='flex flex-col w-5/6 mb-7'>
           <div className='flex gap-4 ml-5 justify-between'>
-            <h4 className='text-xl w-11/12 ml-3 justify-start flex'>Subtema 1 Referente ao módulo 1</h4>
+            <h4 className='text-xl w-11/12 ml-3 justify-start flex'>{content.modulo1.lessonsModule1.lesson1}</h4>
             <h4 className='text-xl w-2/12 ml-3 justify-start flex'>20:30</h4>
           </div>
           <div className='flex gap-4 ml-5 justify-between'>
-            <h4 className='text-xl w-11/12 ml-3 justify-start flex'>Subtema 2 Referente ao módulo 1</h4>
-            <h4 className='text-xl w-2/12 ml-3 justify-start flex'>20:30</h4>
-          </div>
-          <div className='flex gap-4 ml-5 justify-between'>
-            <h4 className='text-xl w-11/12 ml-3 justify-start flex'>Subtema 3 Referente ao módulo 1</h4>
+            {/* {
+              content.modulo1.lessonsModule1.map(lesson => lesson)
+            } */}
+
+            <h4 className='text-xl w-11/12 ml-3 justify-start flex'>{content.modulo1.lessonsModule1.lesson2}</h4>
             <h4 className='text-xl w-2/12 ml-3 justify-start flex'>20:30</h4>
           </div>
         </div>
