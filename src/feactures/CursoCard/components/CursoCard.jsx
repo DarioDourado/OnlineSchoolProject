@@ -22,7 +22,6 @@ export default function CursoCard(coursesInfo) {
     }
   } = coursesInfo
 
-  console.log(coursesInfo)
 
   return (
     <section className='cursoCard shadow-2xl'>

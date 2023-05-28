@@ -5,6 +5,7 @@
 .coursesListCards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    row-gap: 25px;
     justify-items: center;
 }
 .maisPopularesBtn{

@@ -22,7 +22,10 @@ export default function CoursesList() {
 
   const getMyCoursesData = useSelector(state => state.courseLibrary.dataCourses)
 
-  console.log(getMyCoursesData)
+  const filtered = useSelector(state => state.courseLibrary.filteredCourses)
+
+  console.log(filtered)
+
 
   return (
     <section className='container max-w-screen-xl mx-auto p-7'>
@@ -37,7 +40,7 @@ export default function CoursesList() {
         {
 
 
-          getMyCoursesData.map(c =>
+filtered.map(c =>
             <Link
               key={c.id}
               to={`/CursoDetails/${c.id}`} >

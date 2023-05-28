@@ -1,14 +1,17 @@
 .btnFilter{
     border: none;
-    max-width: 150px;
-    padding: 15px;
+    height: 45px;
+    margin: 10px 15px;
+}
+.btnFilter:hover:after{
+    content: "";
+    width: 70%;
+    height: 2px;
+    background-color: var(--btn-hover-bg-color);
+    
 }
 
 .btnFilter:hover{
-    text-decoration: underline overline white;
-    transform: scale(1.05);
-
-
     transition: all 0.2s ease-in-out;
 }
 
@@ -19,11 +22,9 @@
 
     border-radius: 25px;
     width: 100wv;
+    display: flex;
+    flex-direction: column;
+    
+    
 
 }
-/* 
-.filterComponent button{
-    padding: 15px 5px;
-    width: 100px;
-
-} */
