@@ -54,8 +54,8 @@ body{
 
 .menuBgCircleWhiteTL{
     position: absolute;
-    width: 426px;
-    height: 426px;
+    width: 200px;
+    height: 250px;
     left: -135px;
     top: 136px;
     
@@ -76,8 +76,8 @@ body{
 
 .menuBgCircleWhiteML{
     position: absolute;
-    width: 426px;
-    height: 426px;
+    width: 200px;
+    height: 200px;
     left: -135px;
     top: 703px;
     
@@ -91,7 +91,7 @@ body{
     position: absolute;
     width: 602px;
     height: 602px;
-    right: -200px;
+    right: 200px;
     top: 800px;
     background: rgba(61, 92, 255, 0.2);
     filter: blur(150px);
@@ -162,4 +162,4 @@ h3{
     background-color: tomato;
     padding: 5px 15px;
     border-radius: 5px;
-}
+} */

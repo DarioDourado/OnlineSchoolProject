@@ -1,5 +1,6 @@
 import React from 'react'
 import './junteColLab.css'
+import { Link } from 'react-router-dom'
 
 export default function JunteColLab() {
   return (
@@ -10,8 +11,12 @@ export default function JunteColLab() {
                 <h3>Começe hoje mesmo a sua jornada connosco</h3>
             </div>
             <div className='flex flex-col flex-initial w-64 justify-start md:justify-center gap-5'>
-                <button className='junteColLabBtn1'>Sou Formador</button>
-                <button className='junteColLabBtn2'>Sou Estudante</button>
+                <Link
+                  to={'/TrabalheConosco'}
+                ><button className='junteColLabBtn1'>Sou Formador</button></Link>
+                <Link
+                  to={'/Contactos'}
+                ><button className='junteColLabBtn2'>Sou Estudante</button></Link>
             </div>
         </article>
     </section>

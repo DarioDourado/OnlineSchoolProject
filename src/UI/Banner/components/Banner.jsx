@@ -11,11 +11,11 @@ export default function Banner() {
           <h3>
             Provides you with the latest online learning system and material that help your knowledge growing.
           </h3>
-          <div className='CourseExplorerBanner flex justify-center md:justify-start'>
+          <div className='CourseExplorerBanner flex justify-center md:justify-start z-10'>
             <CourseExplorerSearch />
           </div>
         </section>
-        <section className='flex'>
+        <section className='flex relative right-20 md:flex'>
           <img 
           src="/public/images/banner/Boneco_Banner.png" alt="Banner_Boneco"
           className='max-w-sm md:max-w-sm lg:max-w-lg'

@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './coursesList.css'
 import Filter from '../../Filter/components/Filter'
 import CursoCard from '../../CursoCard/components/CursoCard'
-// import { coursesInfo } from '../../../data.json'
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from 'react'
 import { getAllCoursesData } from '../CourseListSlice'
@@ -23,15 +22,17 @@ export default function CoursesList() {
 
   const getMyCoursesData = useSelector(state => state.courseLibrary.dataCourses)
 
+  console.log(getMyCoursesData)
+
   return (
-    <section className='container mx-auto max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl'>
+    <section className='container max-w-screen-xl mx-auto p-7'>
       <section className='coursesList flex flex-col  justify-between items-center'>
         <article >
           <Filter />
         </article>
       </section>
 
-      <article className='coursesListCards'>
+      <article className='coursesListCards mt-7'>
 
         {
 

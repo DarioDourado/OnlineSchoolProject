@@ -22,6 +22,7 @@ export default function CursoCard(coursesInfo) {
     }
   } = coursesInfo
 
+  console.log(coursesInfo)
 
   return (
     <section className='cursoCard shadow-2xl'>
@@ -38,7 +39,7 @@ export default function CursoCard(coursesInfo) {
         </div>
         <div className='cardFotoName flex'>
 
-          <img src={courseImageUrl} alt={name} />
+          <img src={authorCourseImg} alt={name} />
           <div className='cardFotoNameName'>
             <h5 className='w-32'>{name}</h5>
             <h5 className='w-32'>{authorCourseTitle} </h5>

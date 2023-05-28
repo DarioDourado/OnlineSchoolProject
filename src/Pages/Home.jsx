@@ -9,6 +9,7 @@ import Footer from '../UI/Footer/components/Footer'
 import MaisPopularesTitle from '../UI/MaisPopularesTitle/components/MaisPopularesTitle'
 
 
+
 export default function Home() {
   return (
     <section>

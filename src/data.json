@@ -16,20 +16,20 @@
           "bullet5": "Certificado de Conclusão",
           "bullet6": "3 Artigos"
         },
-        "qtdStars": "4.8",
-        "qtdStudants": "55",
+        "qtdStars": 4.8,
+        "qtdStudants": 35,
         "content": {
           "modulo1": {
-            "titleModule1": "Titulo do Módulo 1",
-            "descModule1": "Descrição do Módulo 1",
+            "title": "Titulo do Módulo 1",
+            "description": "Descrição do Módulo 1",
             "lessonsModule1": {
               "lesson1": "Introdução do Módulo 1",
               "lesson2": "2ª Aula do Módulo 1"
             }
           },
           "modulo2": {
-            "titleModule2": "Titulo do Módulo 2",
-            "descModule2": "Descrição do Módulo 2",
+            "title": "Titulo do Módulo 2",
+            "description": "Descrição do Módulo 2",
             "lessonsModule2": {
               "lesson1": "Introdução do Módulo 2"
             }
@@ -37,13 +37,13 @@
         }
       },
       "priceInfo": {
-        "price": "97,90",
-        "promoPrice": "49,90"
+        "price": 97.90,
+        "promoPrice": 49.90
       },
       "authorCurso": {
         "name": "Dario Dourado",
         "authorCourseTitle": "Python Developer",
-        "authorCourseImg": "https://picsum.photos/150/151."
+        "authorCourseImg": "https://picsum.photos/150/151"
       }
     },
     {
@@ -62,20 +62,20 @@
           "bullet5": "Certificado de Conclusão",
           "bullet6": "6 Artigos"
         },
-        "qtdStars": "4.7",
-        "qtdStudants": "85",
+        "qtdStars": 4.7,
+        "qtdStudants": 85,
         "content": {
           "modulo1": {
-            "titleModule1": "Titulo do Módulo 1 - Dados",
-            "descModule1": "Descrição do Módulo 1",
+            "title": "Titulo do Módulo 1 - Dados",
+            "description": "Descrição do Módulo 1",
             "lessonsModule1": {
               "lesson1": "Introdução do Módulo 1",
               "lesson2": "2ª Aula do Módulo 1"
             }
           },
           "modulo2": {
-            "titleModule2": "Titulo do Módulo 2",
-            "descModule2": "Descrição do Módulo 2",
+            "title": "Titulo do Módulo 2",
+            "description": "Descrição do Módulo 2",
             "lessonsModule2": {
               "lesson1": "Introdução do Módulo 2"
             }
@@ -83,13 +83,13 @@
         }
       },
       "priceInfo": {
-        "price": "87,90",
-        "promoPrice": "49,90"
+        "price": 87.90,
+        "promoPrice": 49.90
       },
       "authorCurso": {
         "name": "Adam Smith",
         "authorCourseTitle": "Front-End Developer",
-        "authorCourseImg": "https://picsum.photos/149/151."
+        "authorCourseImg": "https://picsum.photos/149/151"
       }
     },
     {
@@ -108,19 +108,19 @@
           "bullet5": "Certificado de Conclusão",
           "bullet6": "3 Artigos"
         },
-        "qtdStars": "4.6",
-        "qtdStudants": "45",
+        "qtdStars": 4.6,
+        "qtdStudants": 45,
         "content": {
           "modulo1": {
-            "titleModule1": "Titulo do Módulo 1",
-            "descModule1": "Descrição do Módulo 1",
+            "title": "Titulo do Módulo 1",
+            "descriptionss": "Descrição do Módulo 1",
             "lessonsModule1": {
               "lesson1": "Introdução do Módulo 1",
               "lesson2": "2ª Aula do Módulo 1"
             }
           },
           "modulo2": {
-            "titleModule2": "Titulo do Módulo 2",
+            "title": "Titulo do Módulo 2",
             "descModule2": "Descrição do Módulo 2",
             "lessonsModule2": {
               "lesson1": "Introdução do Módulo 2"
@@ -129,14 +129,15 @@
         }
       },
       "priceInfo": {
-        "price": "97,90",
-        "promoPrice": "49,90"
+        "price": 54.90,
+        "promoPrice": 35.90
       },
       "authorCurso": {
         "name": "Jorge Silva",
         "authorCourseTitle": "Excel Expert",
-        "authorCourseImg": "https://picsum.photos/150/150."
+        "authorCourseImg": "https://picsum.photos/150/150"
       }
     }
   ]
+
 }
