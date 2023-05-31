@@ -9,31 +9,67 @@ export const courseListSlice = createSlice({
     initialState: {
         //Array vazia
         dataCourses: [],
-        filteredCourses: []
+        filteredCourses: [],
+        searchBar: []
     },
 
     reducers: {
         //Reducers de Actualização
         getAllCoursesData: (state, action) => {
             state.dataCourses = action.payload;
-            state.filteredCourses = action.payload;
+            state.filteredCourses = action.payload; 
         },
         getCourses: (state, action) => {
             state.dataCourses = action.payload;
             state.filteredCourses = action.payload;
         },
-        showDevelopment: (state, action) => {
+        webDevelopmentFilter: (state, action) => {
             state.filteredCourses = state.dataCourses.filter(c => c.course.categorie === "Web Development")
         },
-        searchByTitle: (state, action) => {
-            state.filteredCourses = state.dataCourses.filter(c => c.course.title.search(action.payload) > -1);
+        excelFilter: (state, action) => {
+            state.filteredCourses = state.dataCourses.filter(c => c.course.categorie === "Excel")
         },
-        // filter: (state, action) => {
-        //     state.filteredCourses = state.dataCourses.filter(c => c.course.categorie === cbtn)
+        marketingDigitalFilter: (state, action) => {
+            state.filteredCourses = state.dataCourses.filter(c => c.course.categorie === "Marketing Digital")
+        },
+        tecnicasAdministrativasDigitalFilter: (state, action) => {
+            state.filteredCourses = state.dataCourses.filter(c => c.course.categorie === "Tecnicas Administrativas")
+        },
+        officeFilter: (state, action) => {
+            state.filteredCourses = state.dataCourses.filter(c => c.course.categorie === "Office")
+        },
+        dataCienceFilter: (state, action) => {
+            state.filteredCourses = state.dataCourses.filter(c => c.course.categorie === "Data Cience")
+        },
+
+        searchByTitle: (state, action) => {
+            state.filteredCourses = state.dataCourses.filter(c => c.course.titleCourse.search(action.payload) > -1);
+        },
+        filter: (state, action) => {
+            state.filteredCourses = state.dataCourses.filter(c => c.course.categorie = action.payload)
+        },
+        // clearTitle: (state, action) => {
+            
         // }
 
     }
 });
 
-export const { getAllCoursesData, searchByTitle, getCourses, showDevelopment } = courseListSlice.actions;
+
+        export const { 
+            getAllCoursesData, 
+            filteredCourses , 
+            searchByTitle, 
+            getCourses, 
+            webDevelopmentFilter, 
+            excelFilter, 
+            marketingDigitalFilter,
+            tecnicasAdministrativasDigitalFilter,
+            officeFilter,
+            dataCienceFilter,
+            filter,
+            clearTitle
+        
+        
+        } = courseListSlice.actions;
 export default courseListSlice.reducer;

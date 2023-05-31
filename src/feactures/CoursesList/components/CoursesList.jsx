@@ -24,9 +24,6 @@ export default function CoursesList() {
 
   const filtered = useSelector(state => state.courseLibrary.filteredCourses)
 
-  console.log(filtered)
-
-
   return (
     <section className='container max-w-screen-xl mx-auto p-7'>
       <section className='coursesList flex flex-col  justify-between items-center'>

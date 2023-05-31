@@ -1,9 +1,29 @@
 import './courseExplorerSearch.css';
+import { useSelector } from 'react-redux'
+import { useDispatch } from "react-redux";
+import { 
+  searchByTitle,
+  clearTitle
+
+} from "../../CoursesList/CourseListSlice";
+import {useState} from 'react';
 
 
-import React from 'react'
 
 export default function CourseExplorerSearch() {
+
+
+  const [searchBar, setsearchBar] = useState('');
+
+  const handleSearchBar = () => {
+    setsearchBar('');
+  };
+
+  let dispatch = useDispatch();
+
+  const filtered = useSelector(state => state.filterLibrary.filteredCourses)
+  const curso = useSelector(state => state.courseLibrary.dataCourses)
+
   return (
     <section>
       <section className='flex courseExplorer mx-auto m-7'>
@@ -14,8 +34,14 @@ export default function CourseExplorerSearch() {
           type="text"
           placeholder='O que pretende aprender? '
           className='h-14 w-[400px] outline-none'
+          onChange={(e) => dispatch(searchByTitle(e.target.value))}
+          
         />
-        <button className='btnSearch'>Explorar</button>
+        <button 
+        className='btnSearch'
+        value={searchBar}
+        onClick={console.log('Clear')}
+        >Explorar</button>
       </section>
     </section>
   )

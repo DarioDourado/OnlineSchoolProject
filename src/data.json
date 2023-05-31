@@ -43,7 +43,7 @@
       "authorCurso": {
         "name": "Dario Dourado",
         "authorCourseTitle": "Python Developer",
-        "authorCourseImg": "https://picsum.photos/150/151"
+        "authorCourseImg": "https://picsum.photos/150/149"
       }
     },
     {
@@ -52,8 +52,8 @@
         "titleCourse": "Front-End Web Development",
         "subTitleCourse": "Aprenda a desenvolver uma App Web",
         "descriptionCourse": " Com este curso de Front-End irá aprender a desenvolver, Apps Web",
-        "courseImageUrl": "https://picsum.photos/501/302",
-        "categorie": "Programming",
+        "courseImageUrl": "https://picsum.photos/501/300",
+        "categorie": "Web Development",
         "bulletPointsCourse": {
           "bullet1": "20h de Conteúdo em Video",
           "bullet2": "+ de 50 recursos para download",
@@ -89,7 +89,7 @@
       "authorCurso": {
         "name": "Adam Smith",
         "authorCourseTitle": "Front-End Developer",
-        "authorCourseImg": "https://picsum.photos/149/151"
+        "authorCourseImg": "https://picsum.photos/149/152"
       }
     },
     {
@@ -99,7 +99,7 @@
         "subTitleCourse": "Aprenda a organizar os seu ficheiros excel",
         "descriptionCourse": " Com este curso de Python irá aprender a desenvolver, ou não, cenas em Python",
         "courseImageUrl": "https://picsum.photos/501/299",
-        "categorie": "Excel",
+        "categorie": "Office",
         "bulletPointsCourse": {
           "bullet1": "13,5h de Conteúdo em Video",
           "bullet2": "+ de 50 recursos para download",
@@ -135,7 +135,467 @@
       "authorCurso": {
         "name": "Jorge Silva",
         "authorCourseTitle": "Excel Expert",
-        "authorCourseImg": "https://picsum.photos/150/150"
+        "authorCourseImg": "https://picsum.photos/150/153"
+      }
+    },
+    {
+      "id": 3,
+      "course": {
+        "titleCourse": "Power BI",
+        "subTitleCourse": "Aprenda a usar esta poderosa ferramenta POWER BI",
+        "descriptionCourse": " Com este curso de Power BI irá aprender a usar esta poderosa ferramenta POWER BI",
+        "courseImageUrl": "https://picsum.photos/501/302",
+        "categorie": "Data Cience",
+        "bulletPointsCourse": {
+          "bullet1": "14h de Conteúdo em Video",
+          "bullet2": "+ de 50 recursos para download",
+          "bullet3": "5 Exercicios",
+          "bullet4": "Resposta ás suas questões em 24h",
+          "bullet5": "Certificado de Conclusão",
+          "bullet6": "3 Artigos"
+        },
+        "qtdStars": 4.7,
+        "qtdStudants": 48,
+        "content": {
+          "modulo1": {
+            "title": "Titulo do Módulo 1",
+            "descriptionss": "Descrição do Módulo 1",
+            "lessonsModule1": {
+              "lesson1": "Introdução do Módulo 1",
+              "lesson2": "2ª Aula do Módulo 1"
+            }
+          },
+          "modulo2": {
+            "title": "Titulo do Módulo 2",
+            "descModule2": "Descrição do Módulo 2",
+            "lessonsModule2": {
+              "lesson1": "Introdução do Módulo 2"
+            }
+          }
+        }
+      },
+      "priceInfo": {
+        "price": 64.90,
+        "promoPrice": 44.90
+      },
+      "authorCurso": {
+        "name": "ANdré Ramos",
+        "authorCourseTitle": "Power BI Expert",
+        "authorCourseImg": "https://picsum.photos/150/155"
+      }
+    },
+    {
+      "id": 4,
+      "course": {
+        "titleCourse": "Marketing Digital MasterClass",
+        "subTitleCourse": "Aprenda Marketing Digital",
+        "descriptionCourse": " Com este curso de Marketing Digital irá aprender a Marketing Digital",
+        "courseImageUrl": "https://picsum.photos/501/305",
+        "categorie": "Marketing Digital",
+        "bulletPointsCourse": {
+          "bullet1": "8h de Conteúdo em Video",
+          "bullet2": "+ de 50 recursos para download",
+          "bullet3": "5 Exercicios",
+          "bullet4": "Resposta ás suas questões em 24h",
+          "bullet5": "Certificado de Conclusão",
+          "bullet6": "3 Artigos"
+        },
+        "qtdStars": 4.6,
+        "qtdStudants": 45,
+        "content": {
+          "modulo1": {
+            "title": "Titulo do Módulo 1",
+            "descriptionss": "Descrição do Módulo 1",
+            "lessonsModule1": {
+              "lesson1": "Introdução do Módulo 1",
+              "lesson2": "2ª Aula do Módulo 1"
+            }
+          },
+          "modulo2": {
+            "title": "Titulo do Módulo 2",
+            "descModule2": "Descrição do Módulo 2",
+            "lessonsModule2": {
+              "lesson1": "Introdução do Módulo 2"
+            }
+          }
+        }
+      },
+      "priceInfo": {
+        "price": 198.90,
+        "promoPrice": 134.90
+      },
+      "authorCurso": {
+        "name": "Ana Mendonça",
+        "authorCourseTitle": "Marketing Expert",
+        "authorCourseImg": "https://picsum.photos/150/156"
+      }
+    },
+    {
+      "id": 5,
+      "course": {
+        "titleCourse": "Excel Intermediário",
+        "subTitleCourse": "Aprenda a Utilizar umas das ferramentas mais poderosas do mercado",
+        "descriptionCourse": " Com este curso de Excel Intermediário irá aprender a a Utilizar umas das ferramentas mais poderosas do mercado",
+        "courseImageUrl": "https://picsum.photos/511/306",
+        "categorie": "Office",
+        "bulletPointsCourse": {
+          "bullet1": "25h de Conteúdo em Video",
+          "bullet2": "+ de 50 recursos para download",
+          "bullet3": "5 Exercicios",
+          "bullet4": "Resposta ás suas questões em 24h",
+          "bullet5": "Certificado de Conclusão",
+          "bullet6": "3 Artigos"
+        },
+        "qtdStars": 4.8,
+        "qtdStudants": 89,
+        "content": {
+          "modulo1": {
+            "title": "Titulo do Módulo 1",
+            "descriptionss": "Descrição do Módulo 1",
+            "lessonsModule1": {
+              "lesson1": "Introdução do Módulo 1",
+              "lesson2": "2ª Aula do Módulo 1"
+            }
+          },
+          "modulo2": {
+            "title": "Titulo do Módulo 2",
+            "descModule2": "Descrição do Módulo 2",
+            "lessonsModule2": {
+              "lesson1": "Introdução do Módulo 2"
+            }
+          }
+        }
+      },
+      "priceInfo": {
+        "price": 74.90,
+        "promoPrice": 44.90
+      },
+      "authorCurso": {
+        "name": "Pedro Ribeiro",
+        "authorCourseTitle": "Excel Expert",
+        "authorCourseImg": "https://picsum.photos/150/148"
+      }
+    },
+    {
+      "id": 6,
+      "course": {
+        "titleCourse": "Office para Secretariado",
+        "subTitleCourse": "Aprenda a organizar usar o office no contexto de secretariado",
+        "descriptionCourse": " Com este curso de Office para Secretariado irá aprender a usar o office no contexto de secretariado, Excel, Word, PowerPoint, Outlook",
+        "courseImageUrl": "https://picsum.photos/501/299",
+        "categorie": "Office",
+        "bulletPointsCourse": {
+          "bullet1": "16h de Conteúdo em Video",
+          "bullet2": "+ de 50 recursos para download",
+          "bullet3": "5 Exercicios",
+          "bullet4": "Resposta ás suas questões em 24h",
+          "bullet5": "Certificado de Conclusão",
+          "bullet6": "3 Artigos"
+        },
+        "qtdStars": 4.9,
+        "qtdStudants": 67,
+        "content": {
+          "modulo1": {
+            "title": "Titulo do Módulo 1",
+            "descriptionss": "Descrição do Módulo 1",
+            "lessonsModule1": {
+              "lesson1": "Introdução do Módulo 1",
+              "lesson2": "2ª Aula do Módulo 1"
+            }
+          },
+          "modulo2": {
+            "title": "Titulo do Módulo 2",
+            "descModule2": "Descrição do Módulo 2",
+            "lessonsModule2": {
+              "lesson1": "Introdução do Módulo 2"
+            }
+          }
+        }
+      },
+      "priceInfo": {
+        "price": 179.90,
+        "promoPrice": 79.90
+      },
+      "authorCurso": {
+        "name": "João Faista",
+        "authorCourseTitle": "Excel Expert",
+        "authorCourseImg": "https://picsum.photos/150/147"
+      }
+    },
+    {
+      "id": 7,
+      "course": {
+        "titleCourse": "Recursos humanos - Processos de recrutamento, seleção e admissão",
+        "subTitleCourse": "Aprenda a Trabalhar com vários conceitos",
+        "descriptionCourse": " Gestão de pessoas (Trabalhar com vários conceitos relacionados com a gestão de recursos humanos e áreas afins.",
+        "courseImageUrl": "https://picsum.photos/501/299",
+        "categorie": "Tecnicas Administrativas",
+        "bulletPointsCourse": {
+          "bullet1": "25h de Conteúdo em Video",
+          "bullet2": "+ de 50 recursos para download",
+          "bullet3": "5 Exercicios",
+          "bullet4": "Resposta ás suas questões em 24h",
+          "bullet5": "Certificado de Conclusão",
+          "bullet6": "3 Artigos"
+        },
+        "qtdStars": 4.7,
+        "qtdStudants": 45,
+        "content": {
+          "modulo1": {
+            "title": "Titulo do Módulo 1",
+            "descriptionss": "Descrição do Módulo 1",
+            "lessonsModule1": {
+              "lesson1": "Introdução do Módulo 1",
+              "lesson2": "2ª Aula do Módulo 1"
+            }
+          },
+          "modulo2": {
+            "title": "Titulo do Módulo 2",
+            "descModule2": "Descrição do Módulo 2",
+            "lessonsModule2": {
+              "lesson1": "Introdução do Módulo 2"
+            }
+          }
+        }
+      },
+      "priceInfo": {
+        "price": 97.90,
+        "promoPrice": 74.90
+      },
+      "authorCurso": {
+        "name": "Oswald José",
+        "authorCourseTitle": "Recursos humanos",
+        "authorCourseImg": "https://picsum.photos/149/147"
+      }
+    },
+    {
+      "id": 8,
+      "course": {
+        "titleCourse": "Assistente Virtual",
+        "subTitleCourse": "Empreendedorismo e presença digital ",
+        "descriptionCourse": " Gestão do negócio (Trabalhar com vários conceitos relacionados com a gestão de um negócio, empresa, departamento, áreas afins",
+        "courseImageUrl": "https://picsum.photos/498/299",
+        "categorie": "Tecnicas Administrativas",
+        "bulletPointsCourse": {
+          "bullet1": "13,5h de Conteúdo em Video",
+          "bullet2": "+ de 50 recursos para download",
+          "bullet3": "5 Exercicios",
+          "bullet4": "Resposta ás suas questões em 24h",
+          "bullet5": "Certificado de Conclusão",
+          "bullet6": "3 Artigos"
+        },
+        "qtdStars": 4.7,
+        "qtdStudants": 95,
+        "content": {
+          "modulo1": {
+            "title": "Titulo do Módulo 1",
+            "descriptionss": "Descrição do Módulo 1",
+            "lessonsModule1": {
+              "lesson1": "Introdução do Módulo 1",
+              "lesson2": "2ª Aula do Módulo 1"
+            }
+          },
+          "modulo2": {
+            "title": "Titulo do Módulo 2",
+            "descModule2": "Descrição do Módulo 2",
+            "lessonsModule2": {
+              "lesson1": "Introdução do Módulo 2"
+            }
+          }
+        }
+      },
+      "priceInfo": {
+        "price": 54.90,
+        "promoPrice": 35.90
+      },
+      "authorCurso": {
+        "name": "Priscila Saldanha",
+        "authorCourseTitle": "Assistent Expert",
+        "authorCourseImg": "https://picsum.photos/157/150"
+      }
+    },
+    {
+      "id": 9,
+      "course": {
+        "titleCourse": "Técnico administrativo",
+        "subTitleCourse": "Aprenda a organizar os seu ficheiros excel",
+        "descriptionCourse": " As funções na área administrativa constituem, atualmente, um desafio complexo para todas as empresas e exigem o domínio de um conjunto vasto de competências, em áreas muito diversificadas.",
+        "courseImageUrl": "https://picsum.photos/497/300",
+        "categorie": "Tecnicas Administrativas",
+        "bulletPointsCourse": {
+          "bullet1": "30h de Conteúdo em Video",
+          "bullet2": "+ de 50 recursos para download",
+          "bullet3": "5 Exercicios",
+          "bullet4": "Resposta ás suas questões em 24h",
+          "bullet5": "Certificado de Conclusão",
+          "bullet6": "3 Artigos"
+        },
+        "qtdStars": 4.6,
+        "qtdStudants": 76,
+        "content": {
+          "modulo1": {
+            "title": "Titulo do Módulo 1",
+            "descriptionss": "Descrição do Módulo 1",
+            "lessonsModule1": {
+              "lesson1": "Introdução do Módulo 1",
+              "lesson2": "2ª Aula do Módulo 1"
+            }
+          },
+          "modulo2": {
+            "title": "Titulo do Módulo 2",
+            "descModule2": "Descrição do Módulo 2",
+            "lessonsModule2": {
+              "lesson1": "Introdução do Módulo 2"
+            }
+          }
+        }
+      },
+      "priceInfo": {
+        "price": 159.90,
+        "promoPrice": 89.90
+      },
+      "authorCurso": {
+        "name": "Pedro Aguilar",
+        "authorCourseTitle": "Técnico Administrativo",
+        "authorCourseImg": "https://picsum.photos/152/152"
+      }
+    },
+    {
+      "id": 10,
+      "course": {
+        "titleCourse": "Excel de Iniciante ao Avançado",
+        "subTitleCourse": "Aprenda a organizar os seu ficheiros excel",
+        "descriptionCourse": " Com este curso de Python irá aprender a desenvolver, ou não, cenas em Python",
+        "courseImageUrl": "https://picsum.photos/501/301",
+        "categorie": "Excel",
+        "bulletPointsCourse": {
+          "bullet1": "13,5h de Conteúdo em Video",
+          "bullet2": "+ de 50 recursos para download",
+          "bullet3": "5 Exercicios",
+          "bullet4": "Resposta ás suas questões em 24h",
+          "bullet5": "Certificado de Conclusão",
+          "bullet6": "3 Artigos"
+        },
+        "qtdStars": 4.6,
+        "qtdStudants": 46,
+        "content": {
+          "modulo1": {
+            "title": "Titulo do Módulo 1",
+            "descriptionss": "Descrição do Módulo 1",
+            "lessonsModule1": {
+              "lesson1": "Introdução do Módulo 1",
+              "lesson2": "2ª Aula do Módulo 1"
+            }
+          },
+          "modulo2": {
+            "title": "Titulo do Módulo 2",
+            "descModule2": "Descrição do Módulo 2",
+            "lessonsModule2": {
+              "lesson1": "Introdução do Módulo 2"
+            }
+          }
+        }
+      },
+      "priceInfo": {
+        "price": 127.90,
+        "promoPrice": 97.90
+      },
+      "authorCurso": {
+        "name": "Jorge Silva",
+        "authorCourseTitle": "Excel Expert",
+        "authorCourseImg": "https://picsum.photos/153/147"
+      }
+    },
+    {
+      "id": 11,
+      "course": {
+        "titleCourse": "Excel de Iniciante ao Avançado",
+        "subTitleCourse": "Aprenda a organizar os seu ficheiros excel",
+        "descriptionCourse": " Com este curso de Python irá aprender a desenvolver, ou não, cenas em Python",
+        "courseImageUrl": "https://picsum.photos/511/298",
+        "categorie": "Excel",
+        "bulletPointsCourse": {
+          "bullet1": "13,5h de Conteúdo em Video",
+          "bullet2": "+ de 50 recursos para download",
+          "bullet3": "5 Exercicios",
+          "bullet4": "Resposta ás suas questões em 24h",
+          "bullet5": "Certificado de Conclusão",
+          "bullet6": "3 Artigos"
+        },
+        "qtdStars": 4.6,
+        "qtdStudants": 45,
+        "content": {
+          "modulo1": {
+            "title": "Titulo do Módulo 1",
+            "descriptionss": "Descrição do Módulo 1",
+            "lessonsModule1": {
+              "lesson1": "Introdução do Módulo 1",
+              "lesson2": "2ª Aula do Módulo 1"
+            }
+          },
+          "modulo2": {
+            "title": "Titulo do Módulo 2",
+            "descModule2": "Descrição do Módulo 2",
+            "lessonsModule2": {
+              "lesson1": "Introdução do Módulo 2"
+            }
+          }
+        }
+      },
+      "priceInfo": {
+        "price": 89.90,
+        "promoPrice": 64.90
+      },
+      "authorCurso": {
+        "name": "Jorge Silva",
+        "authorCourseTitle": "Excel Expert",
+        "authorCourseImg": "https://picsum.photos/157/152"
+      }
+    },
+    {
+      "id": 12,
+      "course": {
+        "titleCourse": "MS- Word - Processador de Texto",
+        "subTitleCourse": "Aprenda a utilizar o processador de texto mais usado do mercado",
+        "descriptionCourse": " O processador de texto Microsoft Word representa uma ferramenta poderosa, rápida e intuitiva para a criação de formulários. O preenchimento de formulários sempre foi uma prática muito comum no nosso dia a dia. Com o Microsoft Word é possível criar formulários digitais",
+        "courseImageUrl": "https://picsum.photos/501/299",
+        "categorie": "Office",
+        "bulletPointsCourse": {
+          "bullet1": "13,5h de Conteúdo em Video",
+          "bullet2": "+ de 50 recursos para download",
+          "bullet3": "5 Exercicios",
+          "bullet4": "Resposta ás suas questões em 24h",
+          "bullet5": "Certificado de Conclusão",
+          "bullet6": "3 Artigos"
+        },
+        "qtdStars": 4.7,
+        "qtdStudants": 82,
+        "content": {
+          "modulo1": {
+            "title": "Titulo do Módulo 1",
+            "descriptionss": "Descrição do Módulo 1",
+            "lessonsModule1": {
+              "lesson1": "Introdução do Módulo 1",
+              "lesson2": "2ª Aula do Módulo 1"
+            }
+          },
+          "modulo2": {
+            "title": "Titulo do Módulo 2",
+            "descModule2": "Descrição do Módulo 2",
+            "lessonsModule2": {
+              "lesson1": "Introdução do Módulo 2"
+            }
+          }
+        }
+      },
+      "priceInfo": {
+        "price": 109.90,
+        "promoPrice": 79.90
+      },
+      "authorCurso": {
+        "name": "Laura Rodrigues",
+        "authorCourseTitle": "Excel Expert",
+        "authorCourseImg": "https://picsum.photos/149/149"
       }
     }
   ]
