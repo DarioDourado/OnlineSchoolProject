@@ -1,7 +1,7 @@
 .btnFilter{
     border: none;
-    height: 45px;
     margin: 10px 15px;
+    padding: 2px 5px;
 }
 .btnFilter:hover:after{
     content: "";
@@ -13,6 +13,14 @@
 
 .btnFilter:hover{
     transition: all 0.2s ease-in-out;
+    border-bottom: 1px solid white;
+    border-radius: 0 0 15px 0;
+}
+
+.active{
+    transition: all 0.2s ease-in-out;
+    border-bottom: 1px solid white;
+    border-radius: 0 0 15px 0;
 }
 
 .filterComponent{

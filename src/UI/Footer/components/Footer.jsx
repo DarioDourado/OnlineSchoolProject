@@ -6,7 +6,7 @@ import Social from '../../Social/components/Social'
 export default function Footer() {
     return (
         <section className='container mx-auto max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mt-10'>
-            <section className='flex p-3 flex-col gap-5 lg:flex-row items-center justify-center'>
+            <section className='flex p-3 flex-col gap-5 md:flex-row items-center justify-center'>
                 <section className='logo flex flex-col justify-center items-center'>
                     <h1 className='text-3xl'>CoolLab</h1>
                     <h3 className='text-md'>Os seu objectivos, serão os nossos</h3>

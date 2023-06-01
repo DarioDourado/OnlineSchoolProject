@@ -3,26 +3,22 @@ import { useSelector } from 'react-redux'
 import { useDispatch } from "react-redux";
 import { 
   searchByTitle,
-  clearTitle
-
 } from "../../CoursesList/CourseListSlice";
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 
 
 
 export default function CourseExplorerSearch() {
 
 
-  const [searchBar, setsearchBar] = useState('');
-
-  const handleSearchBar = () => {
-    setsearchBar('');
-  };
+  const [value, setValue] = useState('');
 
   let dispatch = useDispatch();
 
-  const filtered = useSelector(state => state.filterLibrary.filteredCourses)
-  const curso = useSelector(state => state.courseLibrary.dataCourses)
+  useEffect(() => {
+    dispatch(searchByTitle(value));
+  }, [value])
+  
 
   return (
     <section>
@@ -32,15 +28,16 @@ export default function CourseExplorerSearch() {
         </svg>
         <input
           type="text"
+          value={value}
           placeholder='O que pretende aprender? '
-          className='h-14 w-[400px] outline-none'
-          onChange={(e) => dispatch(searchByTitle(e.target.value))}
+          className='h-14 w-[350px] outline-none md:w-[550px]'
+          onChange={ e => setValue(e.target.value)}
           
         />
         <button 
         className='btnSearch'
-        value={searchBar}
-        onClick={console.log('Clear')}
+        // value={value}
+        onClick={ e => setValue(e.target.previousSibling.value)}
         >Explorar</button>
       </section>
     </section>

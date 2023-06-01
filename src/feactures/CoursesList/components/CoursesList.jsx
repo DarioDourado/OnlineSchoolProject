@@ -33,11 +33,8 @@ export default function CoursesList() {
       </section>
 
       <article className='coursesListCards mt-7'>
-
         {
-
-
-filtered.map(c =>
+          filtered.map(c =>
             <Link
               key={c.id}
               to={`/CursoDetails/${c.id}`} >

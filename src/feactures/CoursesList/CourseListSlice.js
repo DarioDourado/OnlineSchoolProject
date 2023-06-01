@@ -20,8 +20,8 @@ export const courseListSlice = createSlice({
             state.filteredCourses = action.payload; 
         },
         getCourses: (state, action) => {
-            state.dataCourses = action.payload;
-            state.filteredCourses = action.payload;
+            state.dataCourses
+            state.filteredCourses = state.dataCourses
         },
         webDevelopmentFilter: (state, action) => {
             state.filteredCourses = state.dataCourses.filter(c => c.course.categorie === "Web Development")
@@ -39,22 +39,17 @@ export const courseListSlice = createSlice({
             state.filteredCourses = state.dataCourses.filter(c => c.course.categorie === "Office")
         },
         dataCienceFilter: (state, action) => {
-            state.filteredCourses = state.dataCourses.filter(c => c.course.categorie === "Data Cience")
+            state.filteredCourses = state.dataCourses.filter(c => c.course.categorie === "Data Science")
         },
 
         searchByTitle: (state, action) => {
             state.filteredCourses = state.dataCourses.filter(c => c.course.titleCourse.search(action.payload) > -1);
         },
-        filter: (state, action) => {
-            state.filteredCourses = state.dataCourses.filter(c => c.course.categorie = action.payload)
-        },
-        // clearTitle: (state, action) => {
-            
-        // }
-
+        // filter: (state, action) => {
+        //     state.filteredCourses = state.dataCourses.filter(c => c.course.categorie = action.payload)
+        // },
     }
 });
-
 
         export const { 
             getAllCoursesData, 
@@ -67,9 +62,7 @@ export const courseListSlice = createSlice({
             tecnicasAdministrativasDigitalFilter,
             officeFilter,
             dataCienceFilter,
-            filter,
-            clearTitle
-        
+            filter,        
         
         } = courseListSlice.actions;
 export default courseListSlice.reducer;

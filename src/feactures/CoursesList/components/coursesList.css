@@ -4,9 +4,10 @@
 }
 .coursesListCards{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    row-gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    row-gap: 35px;
     justify-items: center;
+
 }
 .maisPopularesBtn{
     margin-top: 15px;

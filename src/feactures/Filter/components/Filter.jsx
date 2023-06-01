@@ -2,16 +2,14 @@ import './filter.css'
 import { useSelector } from 'react-redux'
 import { useDispatch } from "react-redux";
 
-import { getAllCoursesData, 
-  searchByTitle, getCourses, 
+
+import { getCourses, 
   excelFilter,  
   webDevelopmentFilter, 
   marketingDigitalFilter,
   tecnicasAdministrativasDigitalFilter,
   officeFilter,
   dataCienceFilter,
-  filter
-
 } from "../../CoursesList/CourseListSlice";
 
 
@@ -36,44 +34,37 @@ export default function Filter() {
   // let uniqueCategories = [...new Set(categories)];
 
   return (
-    <section className='filterComponent max-w-screen-xl mx-auto grid grid-col-4 grid-flow-col gap-2 mt-3'>
-        <div className='flex'>
-          <button className='btnFilter flex flex-col justify-center'
+    <section className='filterComponent max-w-screen-xl mx-auto w-[520px] sm:w-[620px] md:w-[720px]'>
+        <div className='grid grid-col-4 grid-flow-col gap-1'>
+          <button className='btnFilter'
           onClick={() => dispatch(getCourses())}>
             Todos os Cursos
           </button>
-          <button className='btnFilter flex flex-col justify-center'
+          <button className='btnFilter'
           onClick={() => dispatch(webDevelopmentFilter())}>
             Web Development
           </button>
-          <button className='btnFilter flex flex-col justify-center'
+          <button className='btnFilter'
           onClick={() => dispatch(excelFilter())}>
             Excel
           </button>
-          <button className='btnFilter flex flex-col justify-center'
+          <button className='btnFilter'
           onClick={() => dispatch(tecnicasAdministrativasDigitalFilter())}>
             Técnicas Administrativas
           </button>
-          <button className='btnFilter flex flex-col justify-center'
+          <button className='btnFilter'
           onClick={() => dispatch(officeFilter())}>
             Office
           </button>
-          <button className='btnFilter flex flex-col justify-center'
+          <button className='btnFilter'
           onClick={() => dispatch(dataCienceFilter())}>
-            Data Cience
+            Data Science
           </button>
-          <button className='btnFilter flex flex-col justify-center'
+          <button className='btnFilter'
           onClick={() => dispatch(marketingDigitalFilter())}>
             Marketing Digital
           </button>
           
-
-          
-          
-
-
-
-
           {/* fazer o dispatch de variáveis dispatch(filteredCourses(cbtn))*/}
           {/* {
             uniqueCategories.map( (cbtn, i) => 
