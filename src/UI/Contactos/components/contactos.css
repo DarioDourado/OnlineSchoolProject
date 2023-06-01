@@ -15,10 +15,10 @@
 
 .btnFrom{
     background-color: tomato;
-    width: 25%;
+    width: 20%;
     height: 45px;
     position: relative;
-    bottom: 35px;
+    bottom: 45px;
     left: 45px;
 }
 
@@ -50,8 +50,8 @@
 .contactosMorada{
     width: fit-content;
     position: relative;
-    left: 350px;
-    top: -85px;
+    top: -75px;
+    left: 150px;
     padding: 20px;
     background-color: tomato;
     z-index: 1;
@@ -62,7 +62,7 @@
 
     .contactosMorada{
         position: relative;
-        left: 475px;
+        left: 180px;
 
     }
   }
@@ -71,7 +71,7 @@
 
     .contactosMorada{
         position: relative;
-        left: 265px;
+        left: 180px;
 
 
     }
@@ -96,7 +96,7 @@
 
     .contactosMorada{
         position: relative;
-        left: 245px;
+        left: 120px;
     }
 
 
@@ -121,7 +121,7 @@
 
     .contactosMorada{
         position: relative;
-        left: 265px;
+        left: 125px;
     }
 
 

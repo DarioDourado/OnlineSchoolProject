@@ -1,7 +1,7 @@
 .btnFilter{
     border: none;
-    margin: 10px 15px;
-    padding: 2px 5px;
+    /* margin: 10px 15px; */
+    padding: 5px 10px;
 }
 .btnFilter:hover:after{
     content: "";
@@ -12,27 +12,22 @@
 }
 
 .btnFilter:hover{
+    transform: scale(1.05);
     transition: all 0.2s ease-in-out;
-    border-bottom: 1px solid white;
-    border-radius: 0 0 15px 0;
+    background-color: var(--btn-hover-bg-color);
+    border-radius: 25px;
 }
 
 .active{
+    transform: scale(1.05);
     transition: all 0.2s ease-in-out;
-    border-bottom: 1px solid white;
-    border-radius: 0 0 15px 0;
+    background-color: var(--btn-hover-bg-color);
+    border-radius: 25px;
 }
 
 .filterComponent{
     
     border: 1px solid var(--main-btn-border-color);
     background-color: rgba(255, 255, 255, 0.1);
-
     border-radius: 25px;
-    width: 100wv;
-    display: flex;
-    flex-direction: column;
-    
-    
-
 }

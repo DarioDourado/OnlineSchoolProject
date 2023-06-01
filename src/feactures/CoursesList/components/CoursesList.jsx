@@ -27,7 +27,7 @@ export default function CoursesList() {
   return (
     <section className='container max-w-screen-xl mx-auto p-7'>
       <section className='coursesList flex flex-col  justify-between items-center'>
-        <article >
+        <article className='flex justify-between' >
           <Filter />
         </article>
       </section>

@@ -18,7 +18,7 @@
 }
 
 .detalheGrid li{
-    width: 300px;
+    width: 500px;
 }
 
 .gridDetalhes{
@@ -76,3 +76,6 @@
     color: var(--btn-comprar-color);
 }
 
+.courseDetailsHeader{
+    border-radius: 25px;
+}

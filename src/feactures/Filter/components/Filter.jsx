@@ -34,33 +34,33 @@ export default function Filter() {
   // let uniqueCategories = [...new Set(categories)];
 
   return (
-    <section className='filterComponent max-w-screen-xl mx-auto w-[520px] sm:w-[620px] md:w-[720px]'>
-        <div className='grid grid-col-4 grid-flow-col gap-1'>
-          <button className='btnFilter'
+    <section className='filterComponent mx-auto w-100%'>
+        <div className='grid grid-cols-4 md:grid-cols-7 lg:max-w-fit'>
+          <button className='btnFilter md:p-3'
           onClick={() => dispatch(getCourses())}>
             Todos os Cursos
           </button>
-          <button className='btnFilter'
+          <button className='btnFilter md:p-3'
           onClick={() => dispatch(webDevelopmentFilter())}>
             Web Development
           </button>
-          <button className='btnFilter'
+          <button className='btnFilter md:p-3'
           onClick={() => dispatch(excelFilter())}>
             Excel
           </button>
-          <button className='btnFilter'
+          <button className='btnFilter md:p-3'
           onClick={() => dispatch(tecnicasAdministrativasDigitalFilter())}>
             Técnicas Administrativas
           </button>
-          <button className='btnFilter'
+          <button className='btnFilter md:p-3'
           onClick={() => dispatch(officeFilter())}>
             Office
           </button>
-          <button className='btnFilter'
+          <button className='btnFilter md:p-3'
           onClick={() => dispatch(dataCienceFilter())}>
             Data Science
           </button>
-          <button className='btnFilter'
+          <button className='btnFilter md:p-3'
           onClick={() => dispatch(marketingDigitalFilter())}>
             Marketing Digital
           </button>

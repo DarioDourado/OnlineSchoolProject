@@ -113,7 +113,7 @@
         "content": {
           "modulo1": {
             "title": "Titulo do Módulo 1",
-            "descriptionss": "Descrição do Módulo 1",
+            "description": "Descrição do Módulo 1",
             "lessonsModule1": {
               "lesson1": "Introdução do Módulo 1",
               "lesson2": "2ª Aula do Módulo 1"
@@ -121,7 +121,7 @@
           },
           "modulo2": {
             "title": "Titulo do Módulo 2",
-            "descModule2": "Descrição do Módulo 2",
+            "description": "Descrição do Módulo 2",
             "lessonsModule2": {
               "lesson1": "Introdução do Módulo 2"
             }
@@ -159,7 +159,7 @@
         "content": {
           "modulo1": {
             "title": "Titulo do Módulo 1",
-            "descriptionss": "Descrição do Módulo 1",
+            "description": "Descrição do Módulo 1",
             "lessonsModule1": {
               "lesson1": "Introdução do Módulo 1",
               "lesson2": "2ª Aula do Módulo 1"
@@ -167,7 +167,7 @@
           },
           "modulo2": {
             "title": "Titulo do Módulo 2",
-            "descModule2": "Descrição do Módulo 2",
+            "description": "Descrição do Módulo 2",
             "lessonsModule2": {
               "lesson1": "Introdução do Módulo 2"
             }
@@ -205,7 +205,7 @@
         "content": {
           "modulo1": {
             "title": "Titulo do Módulo 1",
-            "descriptionss": "Descrição do Módulo 1",
+            "description": "Descrição do Módulo 1",
             "lessonsModule1": {
               "lesson1": "Introdução do Módulo 1",
               "lesson2": "2ª Aula do Módulo 1"
@@ -213,7 +213,7 @@
           },
           "modulo2": {
             "title": "Titulo do Módulo 2",
-            "descModule2": "Descrição do Módulo 2",
+            "description": "Descrição do Módulo 2",
             "lessonsModule2": {
               "lesson1": "Introdução do Módulo 2"
             }
@@ -251,7 +251,7 @@
         "content": {
           "modulo1": {
             "title": "Titulo do Módulo 1",
-            "descriptionss": "Descrição do Módulo 1",
+            "description": "Descrição do Módulo 1",
             "lessonsModule1": {
               "lesson1": "Introdução do Módulo 1",
               "lesson2": "2ª Aula do Módulo 1"
@@ -259,7 +259,7 @@
           },
           "modulo2": {
             "title": "Titulo do Módulo 2",
-            "descModule2": "Descrição do Módulo 2",
+            "description": "Descrição do Módulo 2",
             "lessonsModule2": {
               "lesson1": "Introdução do Módulo 2"
             }
@@ -297,7 +297,7 @@
         "content": {
           "modulo1": {
             "title": "Titulo do Módulo 1",
-            "descriptionss": "Descrição do Módulo 1",
+            "description": "Descrição do Módulo 1",
             "lessonsModule1": {
               "lesson1": "Introdução do Módulo 1",
               "lesson2": "2ª Aula do Módulo 1"
@@ -305,7 +305,7 @@
           },
           "modulo2": {
             "title": "Titulo do Módulo 2",
-            "descModule2": "Descrição do Módulo 2",
+            "description": "Descrição do Módulo 2",
             "lessonsModule2": {
               "lesson1": "Introdução do Módulo 2"
             }
@@ -343,7 +343,7 @@
         "content": {
           "modulo1": {
             "title": "Titulo do Módulo 1",
-            "descriptionss": "Descrição do Módulo 1",
+            "description": "Descrição do Módulo 1",
             "lessonsModule1": {
               "lesson1": "Introdução do Módulo 1",
               "lesson2": "2ª Aula do Módulo 1"
@@ -351,7 +351,7 @@
           },
           "modulo2": {
             "title": "Titulo do Módulo 2",
-            "descModule2": "Descrição do Módulo 2",
+            "description": "Descrição do Módulo 2",
             "lessonsModule2": {
               "lesson1": "Introdução do Módulo 2"
             }
@@ -389,7 +389,7 @@
         "content": {
           "modulo1": {
             "title": "Titulo do Módulo 1",
-            "descriptionss": "Descrição do Módulo 1",
+            "description": "Descrição do Módulo 1",
             "lessonsModule1": {
               "lesson1": "Introdução do Módulo 1",
               "lesson2": "2ª Aula do Módulo 1"
@@ -397,7 +397,7 @@
           },
           "modulo2": {
             "title": "Titulo do Módulo 2",
-            "descModule2": "Descrição do Módulo 2",
+            "description": "Descrição do Módulo 2",
             "lessonsModule2": {
               "lesson1": "Introdução do Módulo 2"
             }
@@ -435,7 +435,7 @@
         "content": {
           "modulo1": {
             "title": "Titulo do Módulo 1",
-            "descriptionss": "Descrição do Módulo 1",
+            "description": "Descrição do Módulo 1",
             "lessonsModule1": {
               "lesson1": "Introdução do Módulo 1",
               "lesson2": "2ª Aula do Módulo 1"
@@ -443,7 +443,7 @@
           },
           "modulo2": {
             "title": "Titulo do Módulo 2",
-            "descModule2": "Descrição do Módulo 2",
+            "description": "Descrição do Módulo 2",
             "lessonsModule2": {
               "lesson1": "Introdução do Módulo 2"
             }
@@ -481,7 +481,7 @@
         "content": {
           "modulo1": {
             "title": "Titulo do Módulo 1",
-            "descriptionss": "Descrição do Módulo 1",
+            "description": "Descrição do Módulo 1",
             "lessonsModule1": {
               "lesson1": "Introdução do Módulo 1",
               "lesson2": "2ª Aula do Módulo 1"
@@ -489,7 +489,7 @@
           },
           "modulo2": {
             "title": "Titulo do Módulo 2",
-            "descModule2": "Descrição do Módulo 2",
+            "description": "Descrição do Módulo 2",
             "lessonsModule2": {
               "lesson1": "Introdução do Módulo 2"
             }
@@ -527,7 +527,7 @@
         "content": {
           "modulo1": {
             "title": "Titulo do Módulo 1",
-            "descriptionss": "Descrição do Módulo 1",
+            "description": "Descrição do Módulo 1",
             "lessonsModule1": {
               "lesson1": "Introdução do Módulo 1",
               "lesson2": "2ª Aula do Módulo 1"
@@ -535,7 +535,7 @@
           },
           "modulo2": {
             "title": "Titulo do Módulo 2",
-            "descModule2": "Descrição do Módulo 2",
+            "description": "Descrição do Módulo 2",
             "lessonsModule2": {
               "lesson1": "Introdução do Módulo 2"
             }
@@ -573,7 +573,7 @@
         "content": {
           "modulo1": {
             "title": "Titulo do Módulo 1",
-            "descriptionss": "Descrição do Módulo 1",
+            "description": "Descrição do Módulo 1",
             "lessonsModule1": {
               "lesson1": "Introdução do Módulo 1",
               "lesson2": "2ª Aula do Módulo 1"
@@ -581,7 +581,7 @@
           },
           "modulo2": {
             "title": "Titulo do Módulo 2",
-            "descModule2": "Descrição do Módulo 2",
+            "description": "Descrição do Módulo 2",
             "lessonsModule2": {
               "lesson1": "Introdução do Módulo 2"
             }
