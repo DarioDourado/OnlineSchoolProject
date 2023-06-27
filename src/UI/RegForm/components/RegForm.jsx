@@ -40,7 +40,7 @@ export default function RegForm() {
             <section>
             </section>
             <fieldset>
-                <legend className='text-center text-3xl mt-6'>Criar Conta</legend>
+                <legend className='text-center text-3xl mt-6 bg-red-500'>Criar Conta</legend>
 
 
                 <form className='flex flex-col p-7 gap-4'>
