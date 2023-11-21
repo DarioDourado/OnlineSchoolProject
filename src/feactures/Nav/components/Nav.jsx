@@ -1,9 +1,7 @@
-import React from 'react'
+import { Divide as Hamburger } from 'hamburger-react';
+import React, { useState } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import './navStyle.css';
-import { useState } from 'react';
-import { Link } from 'react-router-dom'
-import { Divide as Hamburger } from 'hamburger-react'
-import { NavLink } from "react-router-dom";
 
 
 
@@ -72,7 +70,7 @@ export default function Nav() {
             </ul>
           </nav>
         </section>
-        <section className={openMenu ? 'flex flex-col justify-center gap-3 mt-7 md:flex-row lg:flex-col xl:flex-row' : 'flex flex-row justify-center gap-5 mt-7 lg:flex-col xl:flex-row hidden lg:flex'}>
+        <section className={openMenu ? 'flex flex-col justify-center gap-3 mt-7 md:flex-row lg:flex-col xl:flex-row' : 'flex flex-row justify-center gap-5 mt-7 lg:flex-col xl:flex-row lg:flex'}>
           <button className='btn2'><Link to='/LoginPage' >Login</Link></button>
           <button className='btn2'><Link to='/RegisterPage' >Registar</Link></button>
         </section>

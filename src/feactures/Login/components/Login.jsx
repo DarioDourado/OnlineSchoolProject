@@ -1,4 +1,3 @@
-import React from 'react'
 import './login.css'
 
 export default function Login() {
@@ -17,7 +16,7 @@ export default function Login() {
                         </div>
                         <h3>Faz o teu login para teres acesso á tua conta CoolLab</h3>
                     </div>
-                    <form className='flex flex-col gap-3 loginForm gap-5'
+                    <form className='flex flex-col gap-3 loginForm'
                         action="">
                         <label htmlFor="">User name</label>
                         <input

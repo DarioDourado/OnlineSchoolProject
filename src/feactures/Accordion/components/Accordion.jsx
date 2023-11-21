@@ -1,4 +1,3 @@
-import React from 'react'
 import './accordion.css'
 
 export default function Accordion() {
@@ -7,7 +6,7 @@ export default function Accordion() {
   const arrowBtnRotate = document.getElementById('arrowBtn')
   const sepDiv = document.getElementById('sepDiv')
 
-  const handleAccordion = (e) => {
+  const handleAccordion = () => {
 
     if(accordionConst.classList.contains('hidden') === true) {
       accordionConst.classList.remove('hidden')
@@ -54,7 +53,7 @@ export default function Accordion() {
         </div>
       </div> 
       <div className='hrSep hidden' id='sepDiv'></div>
-      <div className='flex justify-between gap-2 hidden' id='accord'>
+      <div className='flex justify-between gap-2 ' id='accord'>
         <div className='flex flex-col w-5/6 mb-7'>
           <div className='flex gap-4 ml-5 justify-between'>
             <h4 className='text-xl w-11/12 ml-3 justify-start flex'>Subtema 1 Referente ao módulo 1</h4>

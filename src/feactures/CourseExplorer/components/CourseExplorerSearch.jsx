@@ -1,7 +1,5 @@
 import './courseExplorerSearch.css';
-import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 
-import React from 'react'
 
 export default function CourseExplorerSearch() {
   return (
