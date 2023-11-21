@@ -4,7 +4,7 @@ import './testemunhos.css'
 
 export default function Testemunhos() {
   return (
-    <section className='container testemunhos mx-auto p-7 container max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg'>
+    <section className='container testemunhos mx-auto p-7  max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg'>
         <section className='testemunhoMainContainer'>
           <div className='flex justify-between'>
 
