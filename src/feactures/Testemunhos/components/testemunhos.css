@@ -1,25 +1,33 @@
-.testemunhosContainer{
-    max-width: 600px;
-    height: 250px;
-    background: #381D74;
+.testemunhosContainer {
+
+    background: #391d747a;
     border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 30px;
 }
 
-/* .testemunhoMainContainer{
-    width: 100%;
-    height: 550px;
-
-} */
-
-.testemunhos h1{
+.testemunhos h1 {
     text-align: center;
     height: fit-content;
 }
 
-.testemunhosInfo{
+.testemunhosInfo {
     border-bottom: 1px solid white
 }
+
+
+.testemunialFoto img {
+
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    width: 150px;
+    height: 150px;
+
+}
+
 /* 
 .divTestemunhos{
     margin: auto;

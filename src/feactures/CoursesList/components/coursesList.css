@@ -3,11 +3,11 @@
     font-size: 3em;
 }
 .coursesListCards{
-    margin-top: 45px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
-    row-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    row-gap: 35px;
     justify-items: center;
+
 }
 .maisPopularesBtn{
     margin-top: 15px;

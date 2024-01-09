@@ -38,7 +38,7 @@ export default function CursoCard(coursesInfo) {
         </div>
         <div className='cardFotoName flex'>
 
-          <img src={courseImageUrl} alt={name} />
+          <img src={authorCourseImg} alt={name} />
           <div className='cardFotoNameName'>
             <h5 className='w-32'>{name}</h5>
             <h5 className='w-32'>{authorCourseTitle} </h5>

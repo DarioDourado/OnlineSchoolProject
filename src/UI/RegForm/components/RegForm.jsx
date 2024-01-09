@@ -2,7 +2,6 @@ import React from 'react'
 import './regForm.css'
 import { Formik, Form, Field, ErrorMessage, useFormik, yupToFormErrors, validateYupSchema } from "formik";
 import * as Yup from "yup"
-import YupPassword from 'yup-password'
 
 export default function RegForm() {
 
@@ -41,7 +40,7 @@ export default function RegForm() {
             <section>
             </section>
             <fieldset>
-                <legend className='text-center text-3xl mt-6'>Criar Conta</legend>
+                <legend className='text-center text-3xl mt-6 bg-red-500'>Criar Conta</legend>
 
 
                 <form className='flex flex-col p-7 gap-4'>

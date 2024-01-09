@@ -42,7 +42,6 @@
 }
 
 .btnSearch:hover{
-    transform: scale(1.1);
-    transition: all 0.2s ease-in-out;
-    background-color: var(--btn);
+   
+    background-color: var(--sec-text-color);
 }

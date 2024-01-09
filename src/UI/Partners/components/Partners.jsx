@@ -5,13 +5,11 @@ import './partners.css'
 export default function Partners() {
 
 
-  "imagesPartners ontainer mx-auto max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl"
-
 
   return (
-    <section className='container mx-auto max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl p-7'>
+    <section className=' mx-auto xl:max-w-screen-xl p-7'>
 
-      <fieldset className="imagesPartners ontainer mx-auto max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
+      <fieldset className="imagesPartners xl:max-w-screen-xl">
 
         <legend>Os nossos parceiros</legend>
         <img src="/images/partners/Logo_partners_1.png" alt="Logo_partners_1" />

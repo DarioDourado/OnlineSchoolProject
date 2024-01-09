@@ -1,8 +1,10 @@
 
 .cursoCard{
-    width: 400px;
+
+    max-width: 350px;
     border: 3px solid rgba(124, 73, 159, 0.581);
     border-radius: 35px;
+   
 
 }
 
@@ -18,11 +20,6 @@
     border-radius: 35px 35px 0 0;
 }
 
-
-/* .cardFotoName{
-    display: flex;
-    align-items: center;
-} */
 
 .cardFotoName img{
     width: 80px;

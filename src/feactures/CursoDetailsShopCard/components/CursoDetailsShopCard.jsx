@@ -2,23 +2,31 @@ import React from 'react'
 import './cursoDetailsShopCard.css'
 import Social from '../../../UI/Social/components/Social'
 import Accordion from '../../Accordion/components/Accordion'
+import { useSelector } from 'react-redux'
+import { useParams } from 'react-router-dom'
 
 
 
+export default function CursoDetailsShopCard(props) {
 
+    let params = useParams()
 
-export default function CursoDetailsShopCard() {
+    const curso = useSelector(state => state.courseLibrary.dataCourses.find(c => c.id == params.id))
+
+    let { course, bulletPointsCourse } = curso
 
     return (
+        
         <section className='CursoDetailsShopCardMain container mx-auto max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl'>
             <section className='bg-white'>
                 <div className='imgCursoDetailsShopCardMain'>
                 </div>
                 <div className='flex justify-evenly max-w-md mx-auto mt-3'>
+                    
                     <div className='text-3xl text-black-500'>49,90€</div>
                     <div className='flex flex-col'>
                         <div className='text-xl line-through text-gray-500'>99€ Underline</div>
-                        <div className='text-3xl text-gray-500'>50% Descc.</div>
+                        <div className='text-3xl text-gray-500'>50% Desc.</div>
                     </div>
                 </div>
                 <div className='flex justify-center gap-4'>
@@ -67,6 +75,7 @@ export default function CursoDetailsShopCard() {
             <section className='text-white mx-auto'>
                 <h1>Conteúdo Programático</h1>
                 <section>
+                    
                     <Accordion />
 
                 

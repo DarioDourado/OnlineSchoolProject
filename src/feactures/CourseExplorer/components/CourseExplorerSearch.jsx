@@ -1,9 +1,25 @@
 import './courseExplorerSearch.css';
-import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
+import { useSelector } from 'react-redux'
+import { useDispatch } from "react-redux";
+import { 
+  searchByTitle,
+} from "../../CoursesList/CourseListSlice";
+import {useState, useEffect} from 'react';
 
-import React from 'react'
+
 
 export default function CourseExplorerSearch() {
+
+
+  const [value, setValue] = useState('');
+
+  let dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(searchByTitle(value));
+  }, [value])
+  
+
   return (
     <section>
       <section className='flex courseExplorer mx-auto m-7'>
@@ -12,10 +28,17 @@ export default function CourseExplorerSearch() {
         </svg>
         <input
           type="text"
+          value={value}
           placeholder='O que pretende aprender? '
-          className='h-14 w-[400px] outline-none'
+          className='h-14 w-[350px] outline-none md:w-[550px]'
+          onChange={ e => setValue(e.target.value)}
+          
         />
-        <button className='btnSearch'>Explorar</button>
+        <button 
+        className='btnSearch'
+        // value={value}
+        onClick={ e => setValue(e.target.previousSibling.value)}
+        >Explorar</button>
       </section>
     </section>
   )
